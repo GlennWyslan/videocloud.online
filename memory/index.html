@@ -1,0 +1,2064 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-BR" dir="ltr">
+    <head>
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="preload" as="font" href="https://fonts.gstatic.com/s/poppins/v23/pxiEyp8kv8JHgFVrJJfecg.woff2" crossorigin><link rel="preload" as="font" href="https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2" crossorigin><link rel="preload" as="font" href="https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2" crossorigin><link rel="preload" as="font" href="https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2" crossorigin><link rel="preload" as="font" href="https://fonts.gstatic.com/s/montserrat/v30/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2" crossorigin><style>/* cyrillic-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v30/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v30/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v30/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v30/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v30/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v30/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v30/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v30/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v30/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v30/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v30/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v30/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v30/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v30/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v30/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v23/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v23/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v23/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3GUBGEe.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3iUBGEe.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3CUBGEe.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3-UBGEe.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* math */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMawCUBGEe.woff2) format('woff2');
+  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-208E, U+2090-209C, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+}
+/* symbols */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMaxKUBGEe.woff2) format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA89, U+1FA8F-1FAC6, U+1FACE-1FADC, U+1FADF-1FAE9, U+1FAF0-1FAF8, U+1FB00-1FBFF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3OUBGEe.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3KUBGEe.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3GUBGEe.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3iUBGEe.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3CUBGEe.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3-UBGEe.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* math */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMawCUBGEe.woff2) format('woff2');
+  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-208E, U+2090-209C, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+}
+/* symbols */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMaxKUBGEe.woff2) format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA89, U+1FA8F-1FAC6, U+1FACE-1FADC, U+1FADF-1FAE9, U+1FAF0-1FAF8, U+1FB00-1FBFF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3OUBGEe.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3KUBGEe.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3GUBGEe.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3iUBGEe.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3CUBGEe.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3-UBGEe.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* math */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMawCUBGEe.woff2) format('woff2');
+  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-208E, U+2090-209C, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+}
+/* symbols */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMaxKUBGEe.woff2) format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA89, U+1FA8F-1FAC6, U+1FACE-1FADC, U+1FADF-1FAE9, U+1FAF0-1FAF8, U+1FB00-1FBFF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3OUBGEe.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3KUBGEe.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3GUBGEe.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3iUBGEe.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3CUBGEe.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3-UBGEe.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* math */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMawCUBGEe.woff2) format('woff2');
+  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-208E, U+2090-209C, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+}
+/* symbols */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMaxKUBGEe.woff2) format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA89, U+1FA8F-1FAC6, U+1FACE-1FADC, U+1FADF-1FAE9, U+1FAF0-1FAF8, U+1FB00-1FBFF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3OUBGEe.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3KUBGEe.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+      <meta name="robots" content="index, follow"><meta property="og:type" content="website"><meta property="og:url" content="https://null/"><meta property="og:title" content="Memory Pulse"><meta property="og:description" content="Descrição"><meta property="og:image" content="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/lDXNbH6656035.png"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><meta name="description" content="Descrição"><meta name="author" content="Memory Pulse"><link rel="shortcut icon" type="image/atomicatpages" href="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/lDXNbH6656035.png"><style type="text/css" media="all">
+:root {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  --white: #ffffff;
+}
+
+.a-cloned .a-c-cont {
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+body,
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.a-c-cont-undefined {}body {}.a-c-cont.a-c-cont-undefined {} .a-c-cont-undefined > .a-e-cont {} .a-c-cont-undefined > .a-e-cont:hover {}.atomicat-entrance-animation-undefined {}
+.atomicat-interactive-quiz-progress {
+  margin:20px auto;
+  padding:0;
+  max-width: 28rem;
+  height: 10px;
+  overflow:hidden;
+  position: relative;
+  border-radius: 1rem;
+}
+
+.atomicat-interactive-quiz-progress.atomicat-margin-top-zero {
+  margin-top: 0;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: "Space Grotesk", sans-serif;
+  cursor: pointer;
+}
+.atomicat-interactive-quiz-bar-bg {
+  opacity: 0.1;
+  width: 100%;
+}
+
+.atomicat-interactive-quiz-bar, .atomicat-interactive-quiz-bar-bg {
+  height:100%;
+  background: var(--a-g-theme-color, rgba(100, 149, 237, 1));
+  transition-duration: .7s;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.atomi-h1 {
+  font-size: 36px;
+}
+
+.atomi-h2 {
+  font-size: 30px;
+}
+
+.atomi-h3 {
+  font-size: 24px;
+}
+
+.atomi-h4 {
+  font-size: 20px;
+}
+
+.atomi-h5 {
+  font-size: 18px;
+}
+
+.atomi-h6 {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+}
+
+[class*="atomicat-modal-trigger"], .atomicat-global-modal-trigger {
+  cursor: pointer;
+}
+
+.atomicat-cursor-pointer {
+  cursor: pointer;
+}
+
+.atomicat-unfold,
+.a-o-cont.atomicat-unfold {
+  overflow: hidden;
+  height: 200px;
+  align-items: start;
+  position: relative;
+  transition: height 4s ease-in-out;
+}
+
+.a-o-cont.atomicat-unfold-transition {
+  transition: height 0.5s ease-in-out;
+}
+
+.a-b-cont {
+  word-wrap: break-word;
+}
+
+.atomicat-unfold-button {
+  cursor: pointer;
+  display: block;
+  position: relative;
+  z-index: 1;
+  background: none;
+  border: none;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+.atomicat-unfold::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(white));
+  background: linear-gradient(rgba(255, 255, 255, 0), #fff);
+  transition: background 0.5s ease-in-out;
+  z-index: 1;
+  height: 100%;
+}
+
+.atomicat-ribbon-container {
+    --text: 'MOST POPULAR';
+    --first-color: #62baea;
+    --second-color: #4a98bf;
+    position: relative;
+}
+.atomicat-ribbon-container .atomicat-ribbon {
+    position: absolute;
+    top: -10px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    overflow: hidden;
+}
+
+.a-e-cont.atomicat-infinite-entrance-animation {
+  animation-iteration-count: infinite;
+}
+
+.a-b-o-cont {
+    width: 100%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    position: relative;
+}
+
+.atomicat-ribbon-top-left {
+    left: -10px;
+}
+
+.atomicat-ribbon-top-left::before {
+  transform: rotate(-45deg) translateY(-20px);
+}
+
+.atomicat-ribbon-top-left::after {
+  left: 0;
+}
+
+.atomicat-ribbon-top-right {
+    right: -10px;
+}
+
+.atomicat-ribbon-top-right::before {
+  transform: rotate(45deg) translateY(-20px);
+}
+
+.atomicat-ribbon-top-right::after {
+  right: 0;
+}
+
+.atomicat-ribbon-bottom-left {
+    left: -10px;
+    bottom: -10px;
+}
+
+.atomicat-ribbon-bottom-left::before {
+  transform: rotate(45deg) translateY(-20px);
+}
+
+.atomicat-ribbon-bottom-left::after {
+  left: 0;
+}
+
+.atomicat-ribbon-bottom-right {
+    right: -10px;
+    bottom: -10px;
+
+}
+
+.atomicat-ribbon-bottom-right::before {
+  transform: rotate(-45deg) translateY(-20px);
+}
+
+.atomicat-ribbon-bottom-right::after {
+  right: 0;
+}
+
+.atomicat-ribbon-container .atomicat-ribbon::before{
+    content: var(--text);
+    position: absolute;
+    width: 150%;
+    height: 40px;
+    background: var(--first-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 0.1em;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.atomicat-ribbon-container .atomicat-ribbon::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    background: var(--second-color);
+    z-index: -1;
+    box-shadow: 140px -140px var(--second-color);
+}
+
+.atomicat-marquee {
+  position: relative;
+  display: flex;
+}
+
+.atomicat-overflow-hidden {
+  overflow: hidden;
+}
+
+.atomicat-marquee-content {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  min-width: 100%;
+}
+
+.atomicat-enable-animation .atomicat-marquee-content {
+  animation: atomicat-marquee-animation 10s linear infinite;
+}
+
+.atomicat-marquee-reverse .atomicat-marquee-content {
+  animation-direction: reverse;
+}
+
+.atomicat-marquee-alternate .atomicat-marquee-content {
+  animation-direction: alternate;
+}
+
+.atomicat-marquee-pause:hover .atomicat-marquee-content {
+  animation-play-state: paused;
+}
+
+@keyframes atomicat-marquee-animation {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100% );
+  }
+}
+
+
+
+.atomicat-html-element{
+  width: 18px;
+  height: 18px;
+}
+
+.atomicat-page {
+  background-color: red;
+}
+.atomicat-heading-title, .atomicat-global-styles-heading {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+.atomicat-text, .atomicat-heading-title > span, .atomicat-text > span, .atomicat-global-styles-text {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+}
+.a-e-cont.atomicat-button > .atomicat-button, .atomicat-global-styles-button {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  background: var(--a-g-theme-color, rgba(100, 149, 237, 1));
+}
+
+
+
+.atomicat-fullheight {
+  height: 100%;
+}
+
+.atomicat-disable-selection {
+  user-select: none;
+  -moz-user-select:none;
+  -webkit-user-select:none;
+  cursor:default
+}
+
+.atomicat-hidden {
+  display: none;
+}
+
+.a-r {
+  position: relative;
+}
+
+.atomicat-hidden.a-r,
+.atomicat-hidden.a-i-e-cont,
+.a-r .atomicat-hidden {
+  display: none;
+}
+
+.atomicat-chosen-option {
+  background: yellow;
+}
+
+.atomicat-fixed {
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: 20;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-column-reverse {
+  flex-direction: column-reverse;
+}
+  
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column-all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+.flex-column-reverse {
+  flex-direction: column-reverse;
+}
+
+.flex-row-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.flex-align-center {
+  align-items: center;
+}
+
+.flex-row-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row-align-center {
+  display: flex;
+  align-items: center;
+}
+
+.a-c-cont {
+  max-width: 100%;
+  min-width: 0;
+}
+
+.atomicat-custom-embed iframe {
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+  line-height: 1;
+  border: none;
+}
+
+.a-c-f-w {
+  width: 100%;
+}
+
+.a-e-cont {
+  max-width: 100%;
+
+}
+
+.atomicat-transform-element {
+  transform: perspective(var(--atomicat-transform-perspective, 0)) 
+             rotate(var(--atomicat-transform-rotate-z, 0)) rotateX(var(--atomicat-transform-rotate-x, 0)) 
+             rotateY(var(--atomicat-transform-rotate-y, 0)) translate(var(--atomicat-transform-translate, 0)) 
+             translateX(var(--atomicat-transform-translate-x, 0)) translateY(var(--atomicat-transform-translate-y, 0)) 
+             scaleX(calc(var(--atomicat-transform-flip-x, 1)* var(--atomicat-transform-scale-x, var(--atomicat-transform-scale, 1)))) 
+             scaleY(calc(var(--atomicat-transform-flip-y, 1)* var(--atomicat-transform-scale-y, var(--atomicat-transform-scale, 1)))) 
+             skewX(var(--atomicat-transform-skew-x, 0)) skewY(var(--atomicat-transform-skew-y, 0));
+  transform-origin: var(--atomicat-transform-origin-y) var(--atomicat-transform-origin-x);
+  transition: background .3s, border .3s, border-radius .3s, box-shadow .3s, transform var(--atomicat-transform-transition-duration, .4s);
+}
+
+.a-e-cont.atomicat-googlemaps {
+  overflow: hidden;
+}
+
+.atomicat-flex {
+  display: flex;
+}
+
+.atomicat-emoji {
+  width: 65px;
+}
+
+.atomica-emoji-unicode {
+  font-size: 65px;
+}
+
+.atomicat-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.atomicat-flex-start {
+  align-self: flex-start;
+}
+
+.atomicat-flex-end {
+  align-self: flex-end;
+}
+
+.atomicat-flex-center {
+  align-self: center;
+}
+
+.atomicat-flex-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.a-o-cont {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.a-o-cont {
+    height: 100%;
+    margin: 0 auto;
+}
+
+.a-acc-cont {
+    position: relative;
+}
+
+.a-i-e-cont {
+  transition: height 0.5s ease-in-out, background 0.5s ease-in-out;
+}
+
+.a-o-cont.a-cont-b > .a-cont {
+  max-width: 1140px;
+}
+
+.a-o-cont.a-cont-f-w > .a-cont {
+  max-width: 100%;
+}
+
+.a-o-cont .a-cont {
+  flex-direction: column;
+}
+
+.a-b-cont > .a-o-cont {
+  margin: 0 auto;
+}
+
+.atomicat-divider-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+  gap: 0.5rem;
+}
+
+.atomicat-divider-flex .atomicat-content {
+  border-bottom: 2px solid black;
+  width: 50%;
+}
+
+.atomicat-border-bottom {
+  border-bottom: 1.5px solid #e6e8ea;
+}
+
+.atomicat-border-top {
+  border-top: 1.5px solid #e6e8ea;
+}
+
+.a-cont {
+  display: flex;
+  margin: 0 auto;
+  font-weight: 600;
+  min-height: 100%; 
+  width: 100%;
+}
+
+.atomicat-hidden-tablet {
+  display: block;
+}
+
+.atomicat-hidden-mobile {
+  display: block;
+}
+
+.atomicat-hidden-desktop {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .atomicat-hidden-mobile {
+    display: block;
+  }
+
+  .atomicat-hidden-desktop {
+    display: block;
+  }
+
+  .atomicat-hidden-tablet {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .a-o-cont.a-cont-b > .a-cont {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .atomicat-hidden-tablet {
+    display: block;
+  }
+  .atomicat-hidden-desktop {
+    display: block;
+  }
+  .atomicat-hidden-mobile {
+    display: none;
+  }
+  .a-cont {
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 768px) {
+  .atomicat-column[data-col="10"] {
+    width:10%
+  }
+
+  .atomicat-column[data-col="11"] {
+    width: 11.111%
+  }
+
+  .atomicat-column[data-col="12"] {
+    width: 12.5%
+  }
+
+  .atomicat-column[data-col="14"] {
+    width: 14.285%
+  }
+
+  .atomicat-column[data-col="16"] {
+    width: 16.666%
+  }
+
+  .atomicat-column[data-col="20"] {
+    width: 20%
+  }
+
+  .atomicat-column[data-col="25"] {
+    width: 25%;
+  }
+
+  .atomicat-column[data-col="30"] {
+    width: 30%
+  }
+
+  .atomicat-column[data-col="33"] {
+    width: 33.333%
+  }
+
+  .atomicat-column[data-col="40"] {
+    width: 40%
+  }
+
+  .atomicat-column[data-col="50"] {
+    width: 50%
+  }
+
+  .atomicat-column[data-col="60"] {
+    width: 60%
+  }
+
+  .atomicat-column[data-col="66"] {
+    width: 66.666%
+  }
+
+  .atomicat-column[data-col="70"] {
+    width: 70%
+  }
+
+  .atomicat-column[data-col="75"] {
+    width: 75%
+  }
+
+  .atomicat-column[data-col="80"] {
+    width: 80%
+  }
+
+  .atomicat-column[data-col="83"] {
+    width: 83.333%
+  }
+
+  .atomicat-column[data-col="90"] {
+    width: 90%
+  }
+
+  .atomicat-column[data-col="100"] {
+    width: 100%
+  }
+}
+
+.flexBox {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+@keyframes atomicat-animation-zoomInOut {
+        0%, 100% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.2);
+        }
+    } @keyframes atomicat-animation-zoomIn {
+        from {
+            -webkit-transform: scale(10);
+            transform: scale(10);
+            opacity: 0
+        }
+    }
+
+
+
+
+
+        .a-ac .atomicat-content {
+            padding: 15px 20px;
+            font-weight: 400;
+            white-space: pre-line;
+            word-break: break-word;
+            transition: height 0.5s ease-in-out;
+        }
+        .a-ac .a-c-text {
+            color: var(--a-g-content-color, #000000);
+        }
+        .a-ac svg {
+            height: 14px;
+            color: var(--a-g-theme-color, #6EC1E4);
+        }
+        .a-ac .atomicat-title {
+            padding: 15px 20px;
+            transition: border-bottom 0.5s ease-in-out;
+            border-bottom: 0 solid transparent;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .a-ac .atomicat-title.atomicat-icons-start{
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+            gap: 1rem;
+        }
+        .a-ac-t  {
+            cursor: pointer;
+        }
+        .a-ac .atomicat-content-active {
+            max-height: 1000rem;
+        }
+        .a-ac .a-c-inactive {
+            max-height: 0;
+            padding: 0 20px;
+            overflow: hidden;
+            display: none;
+        }
+        .a-ac-c {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            padding: 2px;
+        }
+        .a-ac-i {
+            border-radius: 10px;
+            background: #f7f8fa;
+            overflow: hidden;
+        }
+        .a-ac .atomicat-content .a-img-w {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+
+
+        .atomicat-button-after {
+            display: flex;
+            flex-direction: row-reverse;
+            gap: 5px;
+            justify-content: center;
+            align-items: center;
+        }
+        .atomicat-button-before {
+            display: flex;
+            flex-direction: row;
+            gap: 5px;
+            align-items: center;
+            justify-content: center;
+        }
+        .a-e-cont > .atomicat-button, .atomicat-marquee-content > .atomicat-button {
+            background: var(--a-g-theme-color, rgba(100, 149, 237, 1));
+            
+            padding: 12px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 600;
+            transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+            word-break: break-word;
+            color: #fff;
+            border-radius: var(--a-g-round, 1rem);
+            align-self: center;
+        }
+        .atomicat-button svg {
+            height: 14px;
+        }
+    
+
+        .a-co {
+            border-radius: 12px;
+            padding: 8px;
+        }
+        .a-co .a-fb-img img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .a-co .a-fb-img {
+            max-width: 300px;
+        }
+        .a-co-f{
+            border-top: 1px solid #e9ebee;
+            padding-bottom: 8px;
+            padding-top: 8px;
+        }
+        .a-co-f .a-co-fc{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .a-co-f .a-co-fc .a-co-fb{
+            width: 14px;
+            height: 14px;
+        }
+        .a-co-f .a-co-fc .a-co-ft{
+            color: #385898;
+            font-weight: 600;
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 11px;
+        }
+        .a-co-h{
+            border-bottom: 1px solid #e9ebee;
+            padding-bottom: 20px;
+        }
+        .a-co-h .a-co-hc{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .a-co-h .a-co-hc .a-co-ht{
+            font-weight: 600;
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 14px;
+        }
+        @media screen and (max-width: 480px) {
+            .a-fb .a-fb-misc {
+              flex-direction: column;
+            }
+            .a-co .a-fb .a-fb-text {
+                width: 90%;
+            }
+        }
+        .a-fb {
+            width: 100%;
+        }
+        .a-fb .a-fb-parent {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+        }
+        .a-fb .a-fb-thumb {
+            width: 48px;
+            height: 48px;
+            object-fit: cover;
+            border-width: 2px;
+            overflow: hidden;
+        }
+        .a-fb .a-fb-thumb-child {
+            width: 36px;
+            height: 36px;
+        }
+        .a-fb .a-fb-thumb-img {
+            width: 100%;
+            height: 100%;
+        }
+        .a-fb .a-fb-info {
+            width: 100%;
+        }
+        .a-fb .a-fb-text {
+            width: 100%;
+            font-family: "Helvetica", "Arial", sans-serif;
+        }
+        .a-fb .a-fb-user {
+            color: #385898;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 1.358;
+            text-transform: capitalize;
+            word-break: break-word;
+        }
+        .a-fb .a-fb-comm {
+            color: #1c1e21;
+            line-height: 19.12px;
+            margin-top: 4px;
+            margin-bottom: 6px;
+            font-size: 14px;
+            font-weight: 400;
+            word-break: break-word;
+        }
+        .a-fb .a-fb-misc {
+            display: flex;
+            justify-content: space-between;
+        }
+        .a-fb .a-fb-misc-left {
+            display: flex;
+            line-height: 16px;
+            gap: 4px;
+        }
+        .a-fb .a-fb-misc-txt, .a-fb .a-fb-time {
+            font-weight: 400;
+            font-size: 12px;
+            font-family: "Helvetica", "Arial", sans-serif;
+            cursor: pointer;
+            color: #4267b2;
+        }
+        .a-fb .a-fb-time {
+            color: #90949c;
+        }
+        .a-fb .a-fb-misc-txt p {
+            color: #4267b2;
+        }
+        .a-fb .a-fb-dot {
+            font-weight: 400;
+            font-size: 12px;
+        }
+        .a-fb .a-fb-misc-txt:hover {
+            text-decoration-line: underline;
+        }
+        .a-fb .a-fb-likes {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            color: #1c1e21;
+        }
+        .a-fb .a-fb-likes .a-fb-like-img {
+            width: 14px;
+            height: 14px;
+            display: block;
+            margin-top: -2px;
+        }
+        .a-fb .a-fb-likes .a-fb-heart-img {
+            width: 20px;
+            margin-left: 4px;
+            margin-right: 2px;
+        }
+        .a-fb .a-fb-likes span {
+            font-size: 12px;
+            font-weight: 400;
+        }
+        .a-fb .a-fb-children {
+            margin-left: 48px;
+            border-left: 1px dotted #d3d6db;
+            padding-left: 8px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        .a-fb .a-fb-child {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+        }
+        .a-yt .a-yt-parent {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            font-family: "Roboto", "Arial", sans-serif;
+        }
+        .a-yt .a-yt-thumb {
+            width: 28px;
+            height: 28px;
+            object-fit: cover;
+            border-radius: 50%;
+            border-width: 2px;
+            overflow: hidden;
+        }
+        .a-yt .a-yt-reply-mob img {
+            width: 14px;
+        }
+        @media (min-width: 768px) {
+            .a-yt .a-yt-reply-mob img {
+              display: none;
+            }
+            .a-yt .a-yt-reply-pc {
+              display: block;
+            }
+        }
+        @media (max-width: 767px) {
+            .a-yt .a-yt-reply-pc {
+              display: none;
+            }
+        }
+        .a-yt .a-yt-reply-pc {
+          font-size: 12px;
+          font-weight: 500;
+          color: #0F0F10;
+        }
+        .a-yt .a-yt-thumb-img {
+            width: 100%;
+            height: 100%;
+        }
+        .a-yt .a-yt-info {
+            width: 84%;
+        }
+        .a-yt .a-yt-text {
+            width: 100%;
+            padding: 0 10px 10px;
+        }
+        .a-yt .a-yt-user {
+            font-weight: 400;
+            font-size: 13px;
+            color: rgb(96, 96, 96);
+            display: flex;
+            align-items: center;
+            word-break: break-word;
+        }
+        .a-yt .a-yt-user span {
+            font-weight: 400;
+            color: rgb(96, 96, 96);
+            margin-left: 6px;
+            font-size: 12px;
+            word-break: break-word;
+        }
+        .a-yt .a-yt-dim {
+            font-weight: 400;
+            font-size: 12px;
+            opacity: 0.6;
+        }
+        .a-yt .a-yt-comm {
+            margin-top: 8px;
+            font-size: 14px;
+            font-weight: 400;
+            word-break: break-word;
+        }
+        .a-yt .a-yt-misc {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            margin-top: -8px;
+        }
+        .a-yt .a-yt-misc .a-yt-unlike {
+            transform: rotate(180deg);
+        }
+        .a-yt .a-yt-misc-left {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+        }
+        .a-yt .a-yt-misc-txt {
+            font-weight: 500;
+        }
+        .a-yt .a-yt-children {
+            padding-left: 56px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        .a-yt .a-yt-child {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+        }
+        .a-yt .gapHalf {
+            gap: 4px;
+        }
+        .a-yt .gap1 {
+            gap: 24px;
+        }
+    
+
+
+
+        .atomicat-icon svg {
+            height: 24px;
+        }
+        .atomicat-icon .atomicat-icon-wrapper {
+            display: inline-block;
+        }
+    
+
+    .atomicat-tooltip-trigger:hover .atomicat-tooltip {
+        opacity: 1;
+        z-index: 1;
+        cursor: pointer;
+    }
+
+    .a-c-cont .atomicat-tooltip-trigger {
+        overflow: visible;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .atomicat-tooltip-trigger:hover .atomicat-tooltip-top {
+        animation: atomicat-tooltip-topin 300ms linear;
+    }
+
+    .atomicat-tooltip-trigger:hover .atomicat-tooltip-right {
+        animation: atomicat-tooltip-rightin 300ms linear;
+    }
+
+    .atomicat-tooltip-trigger:hover .atomicat-tooltip-bottom {
+        animation: atomicat-tooltip-bottomin 300ms linear;
+    }
+
+    .atomicat-tooltip-trigger:hover .atomicat-tooltip-left {
+        animation: atomicat-tooltip-leftin 300ms linear;
+    }
+
+    .atomicat-tooltip {
+        width: 150px;
+        background-color: #555;
+        color: #fff;
+        animation-duration: 300ms;
+        opacity: 0;
+        display: block;
+        color: #fff;
+        border-radius: 4px;
+        padding: 10px;
+        position: absolute;
+        z-index: -1;
+        line-height: 1.3;
+        cursor: pointer;
+        text-align: left;
+    }
+
+    .atomicat-tooltip::after {
+        border-width: 5px;
+        content: "";
+        position: absolute;
+        border-style: solid;
+    }
+
+    .atomicat-tooltip-top {
+        bottom: 100%;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        margin: 0 auto 10px auto;
+    }
+
+    .atomicat-tooltip-top::after {
+        top: 100%;
+        left: calc(50% - 5px);
+        border-top-color: #555;
+        margin-top: 0;
+        border-color: #000 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+        border-top-color: #555;
+    }
+
+    .atomicat-tooltip-right {
+        top: 50%;
+        left: 100%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -webkit-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+        margin-left: 10px;
+        border-color: rgba(0, 0, 0, 0) #000 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    }  
+      
+    .atomicat-tooltip-right::after {
+        top: calc(50% - 5px);
+        right: 100%;
+        border-color: rgba(0, 0, 0, 0) #000 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+        border-right-color: #555;
+    }
+
+    .atomicat-tooltip-bottom {
+        top: 100%;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        margin: 10px auto 0 auto;
+    }
+
+    .atomicat-tooltip-bottom::after {
+        left: calc(50% - 5px);
+        margin-top: 0;
+        bottom: 100%;
+        border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #000 rgba(0, 0, 0, 0);
+        border-bottom-color: #555;
+    }
+
+    .atomicat-tooltip-left {
+        top: 50%;
+        right: 100%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        margin-right: 10px;
+    }
+
+    .atomicat-tooltip-left::after {
+        top: calc(50% - 5px);
+        left: 100%;
+        border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #000;
+        border-left-color: #555;
+    }  
+
+
+    @keyframes atomicat-tooltip-rightin {
+        0% {
+            opacity: 0;
+            left: 105%;
+        }
+        100% {
+            opacity: 1;
+            left: 100%;
+        }
+    }
+
+    @keyframes atomicat-tooltip-leftin {
+        0% {
+            opacity: 0;
+            right: 105%;
+        }
+        100% {
+            opacity: 1;
+            right: 100%;
+        }
+    }
+
+    @keyframes atomicat-tooltip-topin {
+        0% {
+            opacity: 0;
+            bottom: 110%;
+        }
+        100% {
+            opacity: 1;
+            bottom: 100%;
+        }
+    }
+
+    @keyframes atomicat-tooltip-bottomin {
+        0% {
+            opacity: 0;
+            top: 110%;
+        }
+        100% {
+            opacity: 1;
+            top: 100%;
+        }
+    }
+
+
+        .atomicat-video {
+            overflow: hidden;
+        }
+        .atomicat-video iframe {
+            height: 100%;
+            width: 100%;
+        }
+        
+        /* Video Image Overlay Styles */
+        .a-v-o-c {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        .a-v-o {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 2;
+            transition: all 0.3s ease;
+        }
+        
+        .a-v-o:hover svg {
+            transform: scale(1.1);
+        }
+        
+        .a-v-p-b {
+            width: 80px;
+            height: 80px;
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .a-v-p-b {
+                width: 60px;
+                height: 60px;
+            }
+        }
+    
+
+        .atomicat-image {
+            overflow: hidden;
+            text-align: center;
+        }
+        .atomicat-image img {
+            display: inline-block;
+            max-width: 100%;
+            height: auto;
+            vertical-align: middle;
+        }
+    
+
+        .atomicat-text * {
+            word-break: break-word;
+        }
+        .atomicat-text {
+            white-space: pre-line;
+            color: var(--a-g-content-color);
+        }
+        .atomicat-text :is(h1, h2, h3, h4, h5, h6) {
+            color: var(--a-g-title-color);
+        }
+        
+        /* Alert styles - Default (danger/red) */
+        .a-txt-extra,
+        .a-txt-extra.a-danger {
+            color: rgb(185 28 28);
+            background-color: rgb(254 226 226);
+        }
+        .a-txt-extra.a-danger.a-highlight {
+            color: rgb(254 242 242);
+            background-color: rgb(220 38 38);
+        }
+        
+        /* Info (blue) alert styles */
+        .a-txt-extra.a-info {
+            color: rgb(29 78 216);
+            background-color: rgb(219 234 254);
+        }
+        .a-txt-extra.a-info.a-highlight {
+            color: rgb(239 246 255);
+            background-color: rgb(37 99 235);
+        }
+        
+        /* Success (green) alert styles */
+        .a-txt-extra.a-success {
+            color: rgb(21 128 61);
+            background-color: rgb(220 252 231);
+        }
+        .a-txt-extra.a-success.a-highlight {
+            color: rgb(240 253 244);
+            background-color: rgb(22 163 74);
+        }
+        
+        /* Warning (yellow) alert styles */
+        .a-txt-extra.a-warning {
+            color: rgb(161 98 7);
+            background-color: rgb(254 249 195);
+        }
+        .a-txt-extra.a-warning.a-highlight {
+            color: rgb(66 32 6);
+            background-color: rgb(250 204 21);
+        }
+        
+        /* Light (gray) alert styles */
+        .a-txt-extra.a-light {
+            color: rgb(63 63 70);
+            background-color: rgb(244 244 245);
+        }
+        .a-txt-extra.a-light.a-highlight {
+            color: rgb(250 250 250);
+            background-color: rgb(82 82 91);
+        }
+
+        .a-txt-extra {
+            padding: 1rem;
+            border-radius: .375rem;
+            line-height: 1.4;
+            font-size: 16px;
+            font-weight: 400;
+        }
+        
+        .a-txt-timer {
+            line-height: 1.25;
+            text-align: center;
+            padding-left: 1.25rem;
+            padding-right: 1.25rem;
+        }
+        .atomicat-text p {
+            font-size: 16px;
+            font-weight: 400;
+        }
+        .atomicat-heading-title {
+            white-space: pre-line;
+        }
+        .atomicat-heading-title h1 {
+            font-size: 48px;
+            font-weight: 700;
+        }
+        .atomicat-heading-title h2 {
+            font-size: 36px;
+            font-weight: 600;
+        }
+        .atomicat-heading-title h3 {
+            font-size: 24px;
+            font-weight: 500;
+        }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .atomicat-delay {
+      display: none;
+    }
+  
+
+</style><style> 
+      .atomicat-big-container { overflow: hidden; }
+      .a-b-cont { overflow: hidden; }
+    </style><script>!function(i,n){i._plt=i._plt||(n&&n.timeOrigin?n.timeOrigin+n.now():Date.now())}(window,performance);</script>
+<link rel="preload" href="https://scripts.converteai.net/cda0fd17-3b99-44d2-a83a-fc66435cb2df/players/688bd24efa6a95a24696fdb4/v4/player.js" as="script">
+<link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js" as="script">
+<link rel="preload" href="https://cdn.converteai.net/cda0fd17-3b99-44d2-a83a-fc66435cb2df/688bd23ec4c26cb3a4cdb4bf/main.m3u8" as="fetch">
+<link rel="dns-prefetch" href="https://cdn.converteai.net">
+<link rel="dns-prefetch" href="https://scripts.converteai.net">
+<link rel="dns-prefetch" href="https://images.converteai.net">
+<link rel="dns-prefetch" href="https://api.vturb.com.br"><title>Memory Pulse</title>
+    </head>
+    <body id="_cOHbGd74jKeU0h2sR1LwlEntaHi2" data-page="_dcvJdhuC0wZMfazMgVUD" data-page-type="page" class="atomicat-disable-selection">
+      
+      
+      <div class="a-b-cont"><div class="atomicat-container-01fbe81 a-b-o-cont"><style id="atomicat-style-01fbe81">.atomicat-container-01fbe81 > .a-o-cont {}.atomicat-entrance-animation-01fbe81 {}.atomicat-container-01fbe81 > .a-o-cont > .a-cont {flex-direction: column;}.a-b-cont .atomicat-container-01fbe81.a-b-o-cont {background: rgba(0, 0, 0, 1);background-size: cover;background-repeat: no-repeat;background-position: center;}.atomicat-container-01fbe81 > .a-o-cont {}</style><div class="a-o-cont a-cont-b"><div class="a-cont a-i-cont"><div class="a-c-cont a-c-cont-fdacdb8 a-r"><style id="atomicat-style-fdacdb8">.a-c-cont-fdacdb8 {}.a-c-cont.a-c-cont-fdacdb8 {}.a-c-cont-fdacdb8 {width: 100%;} .a-c-cont-fdacdb8 > .a-e-cont {margin-top: 30px;margin-bottom: 30px;} .a-c-cont-fdacdb8 > .a-e-cont:hover {}.atomicat-entrance-animation-fdacdb8 {}</style><div class="a-e-cont a-r atomicat-element-container-fdacdb8 atomicat-video-fdacdb8 atomicat-video "><div style="aspect-ratio:1.77777"><vturb-smartplayer id="vid-688bd24efa6a95a24696fdb4" style="display: block; margin: 0 auto; width: 100%; max-width: 400px;"></vturb-smartplayer> <script type="text/javascript"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/cda0fd17-3b99-44d2-a83a-fc66435cb2df/players/688bd24efa6a95a24696fdb4/v4/player.js", s.async=!0,document.head.appendChild(s); </script></div></div></div></div></div></div><div class="atomicat-container-0db65c5 a-b-o-cont"><style id="atomicat-style-0db65c5">.atomicat-container-0db65c5 > .a-o-cont {}.atomicat-entrance-animation-0db65c5 {}.atomicat-container-0db65c5 > .a-o-cont > .a-cont {flex-direction: row;}.a-b-cont .atomicat-container-0db65c5.a-b-o-cont {background: rgba(0, 0, 0, 1);background-size: cover;background-repeat: no-repeat;background-position: center;}.atomicat-container-0db65c5 > .a-o-cont {}</style><div class="a-o-cont a-cont-b"><div class="a-cont a-i-cont"><div class="atomicat-container-4cecd67 a-b-o-cont"><style id="atomicat-style-4cecd67">.atomicat-container-4cecd67 > .a-o-cont {}.atomicat-entrance-animation-4cecd67 {}.atomicat-container-4cecd67 > .a-o-cont > .a-cont {flex-direction: column;}.a-b-cont .atomicat-container-4cecd67.a-b-o-cont {background-size: cover;background-repeat: no-repeat;background-position: center;width: 50%;}@media screen and (max-width: 480px) {.a-b-cont .atomicat-container-4cecd67.a-b-o-cont{width: 100%;}}.atomicat-container-4cecd67 > .a-o-cont {}</style><div class="a-o-cont a-cont-f-w"><div class="a-cont a-i-cont"><div class="a-c-cont a-c-cont-58a4027 a-r"><style id="atomicat-style-58a4027">.a-c-cont-58a4027 {}.a-c-cont.a-c-cont-58a4027 {}.atomicat-icon-58a4027 {text-align: center;color: rgba(255, 255, 255, 1);}.atomicat-icon-58a4027 .atomicat-icon-wrapper {color: rgba(255, 255, 255, 1);font-size: 16px;text-align: center;}@media screen and (max-width: 480px) {.atomicat-icon-58a4027 .atomicat-icon-wrapper{font-size: 11px;}}.atomicat-icon-58a4027 svg {height: 16px;}@media screen and (max-width: 480px) {.atomicat-icon-58a4027 svg{height: 11px;width: 100px;}} .a-c-cont-58a4027 > .a-e-cont {margin-left: 121px;}@media screen and (max-width: 1024px) {.a-c-cont-58a4027 > .a-e-cont{margin-left: 0px;--atomicat-transform-translate-x: -17px;}}@media screen and (max-width: 480px) {.a-c-cont-58a4027 > .a-e-cont{--atomicat-transform-translate-x: -148px;}} .a-c-cont-58a4027 > .a-e-cont:hover {}.atomicat-entrance-animation-58a4027 {}</style><div class="a-e-cont a-r atomicat-element-container-58a4027 atomicat-icon-58a4027 atomicat-icon  atomicat-transform-element"><div class="atomicat-icon-wrapper"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="volume-high" class="svg-inline--fa fa-volume-high a-i-e-cont" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M533.6 32.5C598.5 85.2 640 165.8 640 256s-41.5 170.7-106.4 223.5c-10.3 8.4-25.4 6.8-33.8-3.5s-6.8-25.4 3.5-33.8C557.5 398.2 592 331.2 592 256s-34.5-142.2-88.7-186.3c-10.3-8.4-11.8-23.5-3.5-33.8s23.5-11.8 33.8-3.5zM473.1 107c43.2 35.2 70.9 88.9 70.9 149s-27.7 113.8-70.9 149c-10.3 8.4-25.4 6.8-33.8-3.5s-6.8-25.4 3.5-33.8C475.3 341.3 496 301.1 496 256s-20.7-85.3-53.2-111.8c-10.3-8.4-11.8-23.5-3.5-33.8s23.5-11.8 33.8-3.5zm-60.5 74.5C434.1 199.1 448 225.9 448 256s-13.9 56.9-35.4 74.5c-10.3 8.4-25.4 6.8-33.8-3.5s-6.8-25.4 3.5-33.8C393.1 284.4 400 271 400 256s-6.9-28.4-17.7-37.3c-10.3-8.4-11.8-23.5-3.5-33.8s23.5-11.8 33.8-3.5zM301.1 34.8C312.6 40 320 51.4 320 64V448c0 12.6-7.4 24-18.9 29.2s-25 3.1-34.4-5.3L131.8 352H64c-35.3 0-64-28.7-64-64V224c0-35.3 28.7-64 64-64h67.8L266.7 40.1c9.4-8.4 22.9-10.4 34.4-5.3z"></path></svg></div></div></div></div></div></div><div class="atomicat-container-6bfef2b a-b-o-cont"><style id="atomicat-style-6bfef2b">.atomicat-container-6bfef2b > .a-o-cont {}.atomicat-entrance-animation-6bfef2b {}.atomicat-container-6bfef2b > .a-o-cont > .a-cont {flex-direction: column;}.a-b-cont .atomicat-container-6bfef2b.a-b-o-cont {margin-bottom: 33px;background-size: cover;background-repeat: no-repeat;background-position: center;width: 50%;}@media screen and (max-width: 480px) {.a-b-cont .atomicat-container-6bfef2b.a-b-o-cont{width: 100%;}}.atomicat-container-6bfef2b > .a-o-cont {}</style><div class="a-o-cont a-cont-f-w"><div class="a-cont a-i-cont"><div class="a-c-cont a-c-cont-65f3989 a-r"><style id="atomicat-style-65f3989">.a-c-cont-65f3989 {}.a-c-cont.a-c-cont-65f3989 {}.a-e-cont.atomicat-heading-title-65f3989 p:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-65f3989 p {color: rgba(255, 255, 255, 1);background-image: unset;text-align: center;}@media screen and (max-width: 1024px) {.a-e-cont.atomicat-heading-title-65f3989 p{font-size: 13px;}}@media screen and (max-width: 480px) {.a-e-cont.atomicat-heading-title-65f3989 p{font-size: 9px;}} .a-c-cont-65f3989 > .a-e-cont {--atomicat-transform-translate-x: -254px;}@media screen and (max-width: 1024px) {.a-c-cont-65f3989 > .a-e-cont{--atomicat-transform-translate-x: -183px;}}@media screen and (max-width: 480px) {.a-c-cont-65f3989 > .a-e-cont{--atomicat-transform-translate-y: -11px;--atomicat-transform-translate-x: -3px;}} .a-c-cont-65f3989 > .a-e-cont:hover {}.atomicat-entrance-animation-65f3989 {}</style><div class="a-e-cont a-r atomicat-element-container-65f3989 atomicat-heading-title-65f3989 atomicat-text  atomicat-text-65f3989 atomicat-transform-element"><p class="     ">Quédate hasta el final y accede al poder de las Ondas Cerebrales</p></div></div></div></div></div></div></div></div><div class="atomicat-container-820dbed a-b-o-cont atomicat-delay" id="ancora"><style id="atomicat-style-820dbed">.atomicat-container-820dbed > .a-o-cont {}.atomicat-entrance-animation-820dbed {}.atomicat-container-820dbed > .a-o-cont > .a-cont {flex-direction: column;}.a-b-cont .atomicat-container-820dbed.a-b-o-cont {background: rgba(0, 0, 0, 1);background-size: cover;background-repeat: no-repeat;background-position: center;}.atomicat-container-820dbed > .a-o-cont {}</style><div class="a-o-cont a-cont-b"><div class="a-cont a-i-cont"><div class="a-c-cont a-c-cont-b2bcc75 a-r a-c-f-w"><style id="atomicat-style-b2bcc75">.a-c-cont-b2bcc75 {}.a-c-cont.a-c-cont-b2bcc75 {}.atomicat-image-b2bcc75 img {}@media screen and (max-width: 1024px) {.atomicat-image-b2bcc75 img{width: 77%;}}.atomicat-image-b2bcc75 {} .a-c-cont-b2bcc75 > .a-e-cont {} .a-c-cont-b2bcc75 > .a-e-cont:hover {}.atomicat-entrance-animation-b2bcc75 {}</style><div class="a-e-cont a-r atomicat-element-container-b2bcc75 atomicat-image-b2bcc75 atomicat-image "><img loading="lazy" fetchpriority="high" decoding="async" width="616" height="300" src="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/eunLYd6656035.png" alt="" srcset="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/eunLYd6656035.png 616w,https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/eunLYd6656035.png?width=300&amp;height=160 300w" class="    " sizes="(max-width: 616px) 100vw, 616px"/></div></div><div class="a-c-cont a-c-cont-ced9605 a-r"><style id="atomicat-style-ced9605">.a-c-cont-ced9605 {}.a-c-cont.a-c-cont-ced9605 {}.a-e-cont.atomicat-heading-title-ced9605 p:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-ced9605 p {color: rgba(255, 49, 49, 1);background-image: unset;text-align: center;font-size: 36px;font-weight: 300;}@media screen and (max-width: 480px) {.a-e-cont.atomicat-heading-title-ced9605 p{font-size: 24px;}} .a-c-cont-ced9605 > .a-e-cont {margin-top: 20px;} .a-c-cont-ced9605 > .a-e-cont:hover {}.atomicat-entrance-animation-ced9605 {}</style><div class="a-e-cont a-r atomicat-element-container-ced9605 atomicat-heading-title-ced9605 atomicat-text  atomicat-text-ced9605"><p class="     "><em>NORMAL: <s>169,00 $USD</s></em></p></div></div><div class="a-c-cont a-c-cont-62bea11 a-r"><style id="atomicat-style-62bea11">.a-c-cont-62bea11 {}.a-c-cont.a-c-cont-62bea11 {}.a-e-cont.atomicat-heading-title-62bea11 p:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-62bea11 p {color: rgba(255, 255, 255, 1);background-image: unset;text-align: center;font-size: 36px;font-weight: 600;}@media screen and (max-width: 480px) {.a-e-cont.atomicat-heading-title-62bea11 p{font-size: 24px;}} .a-c-cont-62bea11 > .a-e-cont {margin-top: 10px;margin-bottom: 10px;} .a-c-cont-62bea11 > .a-e-cont:hover {}.atomicat-entrance-animation-62bea11 {}</style><div class="a-e-cont a-r atomicat-element-container-62bea11 atomicat-heading-title-62bea11 atomicat-text  atomicat-text-62bea11"><p class="     "><em><span style="background: rgba(0, 191, 99, 1);">HOY: 39,00 $USD</span></em></p></div></div><div class="a-c-cont a-c-cont-fa954e9 a-r"><style id="atomicat-style-fa954e9">.a-c-cont-fa954e9 {}.a-c-cont.a-c-cont-fa954e9 {}.a-e-cont.atomicat-heading-title-fa954e9 p:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-fa954e9 p {color: rgba(255, 255, 255, 1);background-image: unset;text-align: center;font-size: 36px;font-weight: 400;}@media screen and (max-width: 480px) {.a-e-cont.atomicat-heading-title-fa954e9 p{font-size: 24px;}} .a-c-cont-fa954e9 > .a-e-cont {margin-bottom: 20px;} .a-c-cont-fa954e9 > .a-e-cont:hover {}.atomicat-entrance-animation-fa954e9 {}</style><div class="a-e-cont a-r atomicat-element-container-fa954e9 atomicat-heading-title-fa954e9 atomicat-text  atomicat-text-fa954e9"><p class="     "><em>Mañana: 49,00 $USD</em></p></div></div><div class="a-c-cont a-c-cont-a29dfa8 a-r"><style id="atomicat-style-a29dfa8">.a-c-cont-a29dfa8 {}.a-c-cont.a-c-cont-a29dfa8 {}.a-e-cont.atomicat-heading-title-a29dfa8 p:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-a29dfa8 p {color: rgba(255, 222, 89, 1);background-image: unset;text-align: center;font-size: 16px;font-weight: 400;}@media screen and (max-width: 480px) {.a-e-cont.atomicat-heading-title-a29dfa8 p{font-size: 11px;}} .a-c-cont-a29dfa8 > .a-e-cont {margin-bottom: 30px;} .a-c-cont-a29dfa8 > .a-e-cont:hover {}.atomicat-entrance-animation-a29dfa8 {}</style><div class="a-e-cont a-r atomicat-element-container-a29dfa8 atomicat-heading-title-a29dfa8 atomicat-text  atomicat-text-a29dfa8"><p class="     ">¡Haz clic en el botón 👇 para ver en tu moneda local y pagar en cuotas!</p></div></div><div class="a-c-cont a-c-cont-6709fec a-r"><style id="atomicat-style-6709fec">.a-c-cont-6709fec {}.a-c-cont.a-c-cont-6709fec {}.atomicat-button-6709fec.a-e-cont .atomicat-button:hover {}.atomicat-button-6709fec.a-e-cont .atomicat-button {background: rgba(255, 222, 89, 1);color: rgba(69, 159, 219, 1);width: 44%;border-style: solid;}@media screen and (max-width: 1024px) {.atomicat-button-6709fec.a-e-cont .atomicat-button{width: 65%;}}@media screen and (max-width: 480px) {.atomicat-button-6709fec.a-e-cont .atomicat-button{width: 66%;font-size: 8px;}} .a-c-cont-6709fec > .a-e-cont {} .a-c-cont-6709fec > .a-e-cont:hover {}.atomicat-entrance-animation-6709fec {animation: atomicat-animation-zoomInOut 2s 1 linear;}</style><div class="a-e-cont a-r atomicat-element-container-6709fec atomicat-button-6709fec atomicat-button  atomicat-button-wrapper atomicat-flex-column atomicat-infinite-entrance-animation"><a href="https://go.perfectpay.com.br/PPU38CPT28C" class="atomicat-button-before  atomicat-button      "><span>¡SÍ, QUIERO RECUPERAR MI AGUDEZA MENTAL!</span></a></div></div><div class="a-c-cont a-c-cont-874fd33 a-r"><style id="atomicat-style-874fd33">.a-c-cont-874fd33 {}.a-c-cont.a-c-cont-874fd33 {}.a-e-cont.atomicat-heading-title-874fd33 p:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-874fd33 p {color: rgba(69, 159, 219, 1);background-image: unset;text-align: center;text-decoration: underline;}@media screen and (max-width: 480px) {.a-e-cont.atomicat-heading-title-874fd33 p{font-size: 14px;}} .a-c-cont-874fd33 > .a-e-cont {margin-top: 12px;margin-bottom: 12px;} .a-c-cont-874fd33 > .a-e-cont:hover {}.atomicat-entrance-animation-874fd33 {}</style><div class="a-e-cont a-r atomicat-element-container-874fd33 atomicat-heading-title-874fd33 atomicat-text  atomicat-text-874fd33"><a href="https://go.perfectpay.com.br/PPU38CPT28C" class="     "><p class="     ">Agregar al Carrito</p></a></div></div><div class="a-c-cont a-c-cont-b89915c a-r a-c-f-w"><style id="atomicat-style-b89915c">.a-c-cont-b89915c {}.a-c-cont.a-c-cont-b89915c {}.atomicat-image-b89915c img {}@media screen and (max-width: 480px) {.atomicat-image-b89915c img{width: 68%;}}.atomicat-image-b89915c {} .a-c-cont-b89915c > .a-e-cont {} .a-c-cont-b89915c > .a-e-cont:hover {}.atomicat-entrance-animation-b89915c {}</style><div class="a-e-cont a-r atomicat-element-container-b89915c atomicat-image-b89915c atomicat-image "><img loading="lazy" fetchpriority="auto" decoding="async" width="298" height="62" src="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/KjtGyg6656035.png" alt="" srcset="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/KjtGyg6656035.png 298w," class="    " sizes="(max-width: 298px) 100vw, 298px"/></div></div><div class="a-c-cont a-c-cont-d30cf82 a-r"><style id="atomicat-style-d30cf82">.a-c-cont-d30cf82 {}.a-c-cont.a-c-cont-d30cf82 {}.a-e-cont.atomicat-heading-title-d30cf82 p:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-d30cf82 p {color: rgba(255, 255, 255, 1);background-image: unset;text-align: center;font-size: 18px;font-weight: 400;}@media screen and (max-width: 480px) {.a-e-cont.atomicat-heading-title-d30cf82 p{font-size: 9px;}} .a-c-cont-d30cf82 > .a-e-cont {margin-bottom: 20px;margin-top: 20px;} .a-c-cont-d30cf82 > .a-e-cont:hover {}.atomicat-entrance-animation-d30cf82 {}</style><div class="a-e-cont a-r atomicat-element-container-d30cf82 atomicat-heading-title-d30cf82 atomicat-text  atomicat-text-d30cf82"><p class="     ">"El camino hacia la <strong>gran riqueza</strong> y el cumplimiento de tus <strong>anhelados sueños"</strong></p></div></div></div></div></div><div class="atomicat-container-ede24ba a-b-o-cont"><style id="atomicat-style-ede24ba">.atomicat-container-ede24ba > .a-o-cont {}.atomicat-entrance-animation-ede24ba {}.atomicat-container-ede24ba > .a-o-cont > .a-cont {flex-direction: column;}.a-b-cont .atomicat-container-ede24ba.a-b-o-cont {background: rgba(69, 159, 219, 1);background-size: cover;background-repeat: no-repeat;background-position: center;}.atomicat-container-ede24ba > .a-o-cont {}</style><div class="a-o-cont a-cont-b"><div class="a-cont a-i-cont"><div class="a-c-cont a-c-cont-39ce0fc a-r a-c-f-w"><style id="atomicat-style-39ce0fc">.a-c-cont-39ce0fc {}.a-c-cont.a-c-cont-39ce0fc {}.atomicat-image-39ce0fc img {width: 47%;}@media screen and (max-width: 1024px) {.atomicat-image-39ce0fc img{width: 64%;}}@media screen and (max-width: 480px) {.atomicat-image-39ce0fc img{width: 89%;}}.atomicat-image-39ce0fc {} .a-c-cont-39ce0fc > .a-e-cont {margin-top: 15px;margin-bottom: 15px;} .a-c-cont-39ce0fc > .a-e-cont:hover {}.atomicat-entrance-animation-39ce0fc {}</style><div class="a-e-cont a-r atomicat-element-container-39ce0fc atomicat-image-39ce0fc atomicat-image "><img loading="lazy" fetchpriority="auto" decoding="async" width="1050" height="161" src="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/QjnRvl6656035.jpeg" alt="" srcset="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/QjnRvl6656035.jpeg 1050w,https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/QjnRvl6656035.jpeg?width=300&amp;height=160 300w,https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/QjnRvl6656035.jpeg?width=768&amp;height=409 768w,https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/QjnRvl6656035.jpeg?width=1024&amp;height=545 1024w" class="    " sizes="(max-width: 1050px) 100vw, 1050px"/></div></div></div></div></div><div class="atomicat-container-ce3871b a-b-o-cont"><style id="atomicat-style-ce3871b">.atomicat-container-ce3871b > .a-o-cont {}.atomicat-entrance-animation-ce3871b {}.atomicat-container-ce3871b > .a-o-cont > .a-cont {flex-direction: column;}.a-b-cont .atomicat-container-ce3871b.a-b-o-cont {background: rgba(0, 0, 0, 1);background-size: cover;background-repeat: no-repeat;background-position: center;}.atomicat-container-ce3871b > .a-o-cont {}</style><div class="a-o-cont a-cont-b"><div class="a-cont a-i-cont"><div class="a-c-cont a-c-cont-65e3c2f a-r a-c-f-w"><style id="atomicat-style-65e3c2f">.a-c-cont-65e3c2f {}.a-c-cont.a-c-cont-65e3c2f {}.atomicat-image-65e3c2f img {width: 44%;}@media screen and (max-width: 480px) {.atomicat-image-65e3c2f img{width: 73%;}}.atomicat-image-65e3c2f {} .a-c-cont-65e3c2f > .a-e-cont {margin-top: 20px;margin-bottom: 20px;} .a-c-cont-65e3c2f > .a-e-cont:hover {}.atomicat-entrance-animation-65e3c2f {}</style><div class="a-e-cont a-r atomicat-element-container-65e3c2f atomicat-image-65e3c2f atomicat-image "><img loading="lazy" fetchpriority="auto" decoding="async" width="667" height="207" src="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/IfBWym3978549.jpeg" alt="" srcset="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/IfBWym3978549.jpeg 667w,https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/IfBWym3978549.jpeg?width=300&amp;height=160 300w" class="    " sizes="(max-width: 667px) 100vw, 667px"/></div></div></div></div></div><div class="atomicat-container-2553fcb a-b-o-cont atomicat-delay"><style id="atomicat-style-2553fcb">.atomicat-container-2553fcb > .a-o-cont {}.atomicat-entrance-animation-2553fcb {}.atomicat-container-2553fcb > .a-o-cont > .a-cont {flex-direction: column;}.a-b-cont .atomicat-container-2553fcb.a-b-o-cont {background-size: cover;background-repeat: no-repeat;background-position: center;}.atomicat-container-2553fcb > .a-o-cont {}</style><div class="a-o-cont a-cont-b"><div class="a-cont a-i-cont"><div class="a-c-cont a-c-cont-7011fad a-r"><style id="atomicat-style-7011fad">.a-c-cont-7011fad {}.a-c-cont.a-c-cont-7011fad {}.a-e-cont.atomicat-heading-title-7011fad h3:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-7011fad h3 {text-align: center;font-weight: 600;font-size: 36px;}@media screen and (max-width: 480px) {.a-e-cont.atomicat-heading-title-7011fad h3{font-size: 20px;}} .a-c-cont-7011fad > .a-e-cont {margin-top: 20px;margin-bottom: 5px;} .a-c-cont-7011fad > .a-e-cont:hover {}.atomicat-entrance-animation-7011fad {}</style><div class="a-e-cont a-r atomicat-element-container-7011fad atomicat-heading-title-7011fad atomicat-heading-title  atomicat-text-7011fad"><h3 class="     ">TODO LO QUE <span style="background: rgba(69, 159, 219, 1);"><span style="color: rgba(255, 255, 255, 1);">RECIBIRÁS</span></span> HOY:<br /></h3></div></div><div class="a-c-cont a-c-cont-6f25b19 a-r"><style id="atomicat-style-6f25b19">.a-c-cont-6f25b19 {}.a-c-cont.a-c-cont-6f25b19 {}.a-e-cont.atomicat-heading-title-6f25b19 h3:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-6f25b19 h3 {text-align: center;font-weight: 600;font-size: 36px;}@media screen and (max-width: 480px) {.a-e-cont.atomicat-heading-title-6f25b19 h3{font-size: 20px;}} .a-c-cont-6f25b19 > .a-e-cont {} .a-c-cont-6f25b19 > .a-e-cont:hover {}.atomicat-entrance-animation-6f25b19 {}</style><div class="a-e-cont a-r atomicat-element-container-6f25b19 atomicat-heading-title-6f25b19 atomicat-heading-title  atomicat-text-6f25b19"><h3 class="     "><em>MEMORY PULSE + BONOS</em></h3></div></div><div class="a-c-cont a-c-cont-7a15a80 a-r a-c-f-w"><style id="atomicat-style-7a15a80">.a-c-cont-7a15a80 {}.a-c-cont.a-c-cont-7a15a80 {}.atomicat-image-7a15a80 img {}@media screen and (max-width: 480px) {.atomicat-image-7a15a80 img{width: 50%;}}.atomicat-image-7a15a80 {} .a-c-cont-7a15a80 > .a-e-cont {} .a-c-cont-7a15a80 > .a-e-cont:hover {}.atomicat-entrance-animation-7a15a80 {}</style><div class="a-e-cont a-r atomicat-element-container-7a15a80 atomicat-image-7a15a80 atomicat-image "><img loading="lazy" fetchpriority="auto" decoding="async" width="257" height="275" src="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/lDXNbH6656035.png" alt="" srcset="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/lDXNbH6656035.png 257w," class="    " sizes="(max-width: 257px) 100vw, 257px"/></div></div><div class="a-c-cont a-c-cont-fb0ea01 a-r"><style id="atomicat-style-fb0ea01">.a-c-cont-fb0ea01 {}.a-c-cont.a-c-cont-fb0ea01 {}.a-e-cont.atomicat-heading-title-fb0ea01 p:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-fb0ea01 p {text-align: left;}@media screen and (max-width: 480px) {.a-e-cont.atomicat-heading-title-fb0ea01 p{font-size: 14px;}} .a-c-cont-fb0ea01 > .a-e-cont {margin-bottom: 15px;margin-left: 200px;}@media screen and (max-width: 1024px) {.a-c-cont-fb0ea01 > .a-e-cont{margin-left: 20px;}} .a-c-cont-fb0ea01 > .a-e-cont:hover {}.atomicat-entrance-animation-fb0ea01 {}</style><div class="a-e-cont a-r atomicat-element-container-fb0ea01 atomicat-heading-title-fb0ea01 atomicat-text  atomicat-text-fb0ea01"><p class="     ">✅ Escucha, la onda MEMORY PULSE comienza a limpiar tu mente desde el primer uso<br />✅ La activación gamma sincroniza tus pensamientos<br />✅ Mejora tu enfoque y te hace sentir mentalmente renovado<br />✅ Desbloquea habilidades dormidas<br />✅ Recupera tu agudeza mental sin suplementos ni ejercicios<br />✅ MEMORY PULSE no es magia ni meditación: es ciencia neurológica diseñada para activar tu poder mental latente<br />✅ Vas a notar cómo tu mente se aclara, tu energía mejora<br />✅ Siente que recuperas el control total de tu capacidad mental</p></div></div><div class="a-c-cont a-c-cont-748b097 a-r"><style id="atomicat-style-748b097">.a-c-cont-748b097 {}.a-c-cont.a-c-cont-748b097 {}.a-e-cont.atomicat-heading-title-748b097 p:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-748b097 p {text-align: center;font-weight: 300;font-size: 20px;} .a-c-cont-748b097 > .a-e-cont {} .a-c-cont-748b097 > .a-e-cont:hover {}.atomicat-entrance-animation-748b097 {}</style><div class="a-e-cont a-r atomicat-element-container-748b097 atomicat-heading-title-748b097 atomicat-text  atomicat-text-748b097"><p class="     "><s><span style="background: rgba(255, 222, 89, 1);">VALOR $249 USD</span></s></p></div></div><div class="a-c-cont a-c-cont-03c5af6 a-r"><style id="atomicat-style-03c5af6">.a-c-cont-03c5af6 {}.a-c-cont.a-c-cont-03c5af6 {}.a-e-cont.atomicat-heading-title-03c5af6 h3:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-03c5af6 h3 {text-align: center;font-weight: 600;font-size: 32px;}@media screen and (max-width: 480px) {.a-e-cont.atomicat-heading-title-03c5af6 h3{font-size: 16px;}} .a-c-cont-03c5af6 > .a-e-cont {margin-top: 15px;} .a-c-cont-03c5af6 > .a-e-cont:hover {}.atomicat-entrance-animation-03c5af6 {}</style><div class="a-e-cont a-r atomicat-element-container-03c5af6 atomicat-heading-title-03c5af6 atomicat-heading-title  atomicat-text-03c5af6"><h3 class="     "><em>BONO #1: AHORRADOR DE MEMORIA DE 1 MINUTO</em></h3></div></div><div class="a-c-cont a-c-cont-133f257 a-r a-c-f-w"><style id="atomicat-style-133f257">.a-c-cont-133f257 {}.a-c-cont.a-c-cont-133f257 {}.atomicat-image-133f257 img {width: 25%;}@media screen and (max-width: 1024px) {.atomicat-image-133f257 img{width: 39%;}}@media screen and (max-width: 480px) {.atomicat-image-133f257 img{width: 50%;}}.atomicat-image-133f257 {} .a-c-cont-133f257 > .a-e-cont {margin-top: 15px;} .a-c-cont-133f257 > .a-e-cont:hover {}.atomicat-entrance-animation-133f257 {}</style><div class="a-e-cont a-r atomicat-element-container-133f257 atomicat-image-133f257 atomicat-image "><img loading="lazy" fetchpriority="auto" decoding="async" width="321" height="275" src="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/dyyedS6656035.png" alt="" srcset="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/dyyedS6656035.png 321w,https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/dyyedS6656035.png?width=300&amp;height=160 300w" class="    " sizes="(max-width: 321px) 100vw, 321px"/></div></div><div class="a-c-cont a-c-cont-16d447a a-r"><style id="atomicat-style-16d447a">.a-c-cont-16d447a {}.a-c-cont.a-c-cont-16d447a {}.a-e-cont.atomicat-heading-title-16d447a p:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-16d447a p {text-align: left;}@media screen and (max-width: 480px) {.a-e-cont.atomicat-heading-title-16d447a p{font-size: 14px;}} .a-c-cont-16d447a > .a-e-cont {margin-bottom: 15px;margin-left: 200px;margin-top: 10px;}@media screen and (max-width: 1024px) {.a-c-cont-16d447a > .a-e-cont{margin-left: 20px;}} .a-c-cont-16d447a > .a-e-cont:hover {}.atomicat-entrance-animation-16d447a {}</style><div class="a-e-cont a-r atomicat-element-container-16d447a atomicat-heading-title-16d447a atomicat-text  atomicat-text-16d447a"><p class="     ">✅ Aprende algo nuevo y guárdalo en tu memoria en solo 60 segundos<br />✅ Funciona mientras haces fila, cocinas o tomas café<br />✅ Convierte lo nuevo en memoria de largo plazo<br />✅ Olvidarse ya no es una opción</p></div></div><div class="a-c-cont a-c-cont-faefd9c a-r"><style id="atomicat-style-faefd9c">.a-c-cont-faefd9c {}.a-c-cont.a-c-cont-faefd9c {}.a-e-cont.atomicat-heading-title-faefd9c p:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-faefd9c p {text-align: center;font-weight: 300;font-size: 20px;} .a-c-cont-faefd9c > .a-e-cont {} .a-c-cont-faefd9c > .a-e-cont:hover {}.atomicat-entrance-animation-faefd9c {}</style><div class="a-e-cont a-r atomicat-element-container-faefd9c atomicat-heading-title-faefd9c atomicat-text  atomicat-text-faefd9c"><p class="     "><s><span style="background: rgba(255, 222, 89, 1);">VALOR $97 USD</span></s></p></div></div><div class="a-c-cont a-c-cont-5d68d42 a-r"><style id="atomicat-style-5d68d42">.a-c-cont-5d68d42 {}.a-c-cont.a-c-cont-5d68d42 {}.a-e-cont.atomicat-heading-title-5d68d42 p:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-5d68d42 p {text-align: center;} .a-c-cont-5d68d42 > .a-e-cont {margin-top: 10px;margin-bottom: 20px;} .a-c-cont-5d68d42 > .a-e-cont:hover {}.atomicat-entrance-animation-5d68d42 {}</style><div class="a-e-cont a-r atomicat-element-container-5d68d42 atomicat-heading-title-5d68d42 atomicat-text  atomicat-text-5d68d42"><p class="     ">(GRATIS Uniéndote al Programa)</p></div></div><div class="a-c-cont a-c-cont-7a2d229 a-r"><style id="atomicat-style-7a2d229">.a-c-cont-7a2d229 {}.a-c-cont.a-c-cont-7a2d229 {}.a-e-cont.atomicat-heading-title-7a2d229 h3:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-7a2d229 h3 {text-align: center;font-weight: 600;font-size: 32px;}@media screen and (max-width: 480px) {.a-e-cont.atomicat-heading-title-7a2d229 h3{font-size: 16px;}} .a-c-cont-7a2d229 > .a-e-cont {margin-top: 15px;} .a-c-cont-7a2d229 > .a-e-cont:hover {}.atomicat-entrance-animation-7a2d229 {}</style><div class="a-e-cont a-r atomicat-element-container-7a2d229 atomicat-heading-title-7a2d229 atomicat-heading-title  atomicat-text-7a2d229"><h3 class="     "><em>BONO #2: GUÍA DE COMPRAS INTELIGENTE</em></h3></div></div><div class="a-c-cont a-c-cont-e404b5d a-r a-c-f-w"><style id="atomicat-style-e404b5d">.a-c-cont-e404b5d {}.a-c-cont.a-c-cont-e404b5d {}.atomicat-image-e404b5d img {width: 14%;}@media screen and (max-width: 1024px) {.atomicat-image-e404b5d img{width: 20%;}}@media screen and (max-width: 480px) {.atomicat-image-e404b5d img{width: 39%;}}.atomicat-image-e404b5d {} .a-c-cont-e404b5d > .a-e-cont {margin-top: 15px;} .a-c-cont-e404b5d > .a-e-cont:hover {}.atomicat-entrance-animation-e404b5d {}</style><div class="a-e-cont a-r atomicat-element-container-e404b5d atomicat-image-e404b5d atomicat-image "><img loading="lazy" fetchpriority="auto" decoding="async" width="163" height="276" src="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/qbfIWx6656035.png" alt="" srcset="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/qbfIWx6656035.png 163w," class="    " sizes="(max-width: 163px) 100vw, 163px"/></div></div><div class="a-c-cont a-c-cont-c50ae2a a-r"><style id="atomicat-style-c50ae2a">.a-c-cont-c50ae2a {}.a-c-cont.a-c-cont-c50ae2a {}.a-e-cont.atomicat-heading-title-c50ae2a p:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-c50ae2a p {text-align: left;}@media screen and (max-width: 480px) {.a-e-cont.atomicat-heading-title-c50ae2a p{font-size: 14px;}} .a-c-cont-c50ae2a > .a-e-cont {margin-bottom: 15px;margin-left: 200px;margin-top: 10px;}@media screen and (max-width: 1024px) {.a-c-cont-c50ae2a > .a-e-cont{margin-left: 20px;}} .a-c-cont-c50ae2a > .a-e-cont:hover {}.atomicat-entrance-animation-c50ae2a {}</style><div class="a-e-cont a-r atomicat-element-container-c50ae2a atomicat-heading-title-c50ae2a atomicat-text  atomicat-text-c50ae2a"><p class="     ">✅ Descubre qué alimentos comunes están saboteando tu memoria y siguen en tu carrito de compras.<br />✅ Con solo aplicar uno de los trucos, vas a ahorrar dinero y alimentar mejor a tu cerebro.<br />✅ Come más inteligente, piensa más claro y gasta menos.<br />✅ No importa dónde compres, estos errores son universales y este plan los soluciona.</p></div></div><div class="a-c-cont a-c-cont-8106ab5 a-r"><style id="atomicat-style-8106ab5">.a-c-cont-8106ab5 {}.a-c-cont.a-c-cont-8106ab5 {}.a-e-cont.atomicat-heading-title-8106ab5 p:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-8106ab5 p {text-align: center;font-weight: 300;font-size: 20px;} .a-c-cont-8106ab5 > .a-e-cont {} .a-c-cont-8106ab5 > .a-e-cont:hover {}.atomicat-entrance-animation-8106ab5 {}</style><div class="a-e-cont a-r atomicat-element-container-8106ab5 atomicat-heading-title-8106ab5 atomicat-text  atomicat-text-8106ab5"><p class="     "><s><span style="background: rgba(255, 222, 89, 1);">VALOR $147 USD</span></s></p></div></div><div class="a-c-cont a-c-cont-0c404ed a-r"><style id="atomicat-style-0c404ed">.a-c-cont-0c404ed {}.a-c-cont.a-c-cont-0c404ed {}.a-e-cont.atomicat-heading-title-0c404ed p:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-0c404ed p {text-align: center;} .a-c-cont-0c404ed > .a-e-cont {margin-top: 10px;margin-bottom: 20px;} .a-c-cont-0c404ed > .a-e-cont:hover {}.atomicat-entrance-animation-0c404ed {}</style><div class="a-e-cont a-r atomicat-element-container-0c404ed atomicat-heading-title-0c404ed atomicat-text  atomicat-text-0c404ed"><p class="     ">(GRATIS Uniéndote al Programa)</p></div></div><div class="a-c-cont a-c-cont-2e1279b a-r"><style id="atomicat-style-2e1279b">.a-c-cont-2e1279b {}.a-c-cont.a-c-cont-2e1279b {}.a-e-cont.atomicat-heading-title-2e1279b h3:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-2e1279b h3 {text-align: center;font-weight: 600;font-size: 32px;}@media screen and (max-width: 480px) {.a-e-cont.atomicat-heading-title-2e1279b h3{font-size: 16px;}} .a-c-cont-2e1279b > .a-e-cont {margin-top: 15px;} .a-c-cont-2e1279b > .a-e-cont:hover {}.atomicat-entrance-animation-2e1279b {}</style><div class="a-e-cont a-r atomicat-element-container-2e1279b atomicat-heading-title-2e1279b atomicat-heading-title  atomicat-text-2e1279b"><h3 class="     "><em>BONO #3: EL BOTÓN DE ENERGÍA</em></h3></div></div><div class="a-c-cont a-c-cont-d02e44e a-r a-c-f-w"><style id="atomicat-style-d02e44e">.a-c-cont-d02e44e {}.a-c-cont.a-c-cont-d02e44e {}.atomicat-image-d02e44e img {width: 20%;}@media screen and (max-width: 1024px) {.atomicat-image-d02e44e img{width: 33%;}}@media screen and (max-width: 480px) {.atomicat-image-d02e44e img{width: 50%;}}.atomicat-image-d02e44e {} .a-c-cont-d02e44e > .a-e-cont {margin-top: 15px;} .a-c-cont-d02e44e > .a-e-cont:hover {}.atomicat-entrance-animation-d02e44e {}</style><div class="a-e-cont a-r atomicat-element-container-d02e44e atomicat-image-d02e44e atomicat-image "><img loading="lazy" fetchpriority="auto" decoding="async" width="259" height="275" src="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/wBrhfc6656035.png" alt="" srcset="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/wBrhfc6656035.png 259w," class="    " sizes="(max-width: 259px) 100vw, 259px"/></div></div><div class="a-c-cont a-c-cont-64889e7 a-r"><style id="atomicat-style-64889e7">.a-c-cont-64889e7 {}.a-c-cont.a-c-cont-64889e7 {}.a-e-cont.atomicat-heading-title-64889e7 p:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-64889e7 p {text-align: left;}@media screen and (max-width: 480px) {.a-e-cont.atomicat-heading-title-64889e7 p{font-size: 14px;}} .a-c-cont-64889e7 > .a-e-cont {margin-bottom: 15px;margin-left: 200px;margin-top: 10px;}@media screen and (max-width: 1024px) {.a-c-cont-64889e7 > .a-e-cont{margin-left: 20px;}} .a-c-cont-64889e7 > .a-e-cont:hover {}.atomicat-entrance-animation-64889e7 {}</style><div class="a-e-cont a-r atomicat-element-container-64889e7 atomicat-heading-title-64889e7 atomicat-text  atomicat-text-64889e7"><p class="     ">✅ Siente como si tu semana tuviera un día extra<br />✅ Aprende cómo aprovechar al máximo tu energía mental<br />✅ Más energía, más foco, más claridad<br />✅ No es solo tener más tiempo, es tener más mente para usarlo.</p></div></div><div class="a-c-cont a-c-cont-b115bac a-r"><style id="atomicat-style-b115bac">.a-c-cont-b115bac {}.a-c-cont.a-c-cont-b115bac {}.a-e-cont.atomicat-heading-title-b115bac p:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-b115bac p {text-align: center;font-weight: 300;font-size: 20px;} .a-c-cont-b115bac > .a-e-cont {} .a-c-cont-b115bac > .a-e-cont:hover {}.atomicat-entrance-animation-b115bac {}</style><div class="a-e-cont a-r atomicat-element-container-b115bac atomicat-heading-title-b115bac atomicat-text  atomicat-text-b115bac"><p class="     "><s><span style="background: rgba(255, 222, 89, 1);">VALOR $147 USD</span></s></p></div></div><div class="a-c-cont a-c-cont-f56357a a-r"><style id="atomicat-style-f56357a">.a-c-cont-f56357a {}.a-c-cont.a-c-cont-f56357a {}.a-e-cont.atomicat-heading-title-f56357a p:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-f56357a p {text-align: center;} .a-c-cont-f56357a > .a-e-cont {margin-top: 10px;margin-bottom: 20px;} .a-c-cont-f56357a > .a-e-cont:hover {}.atomicat-entrance-animation-f56357a {}</style><div class="a-e-cont a-r atomicat-element-container-f56357a atomicat-heading-title-f56357a atomicat-text  atomicat-text-f56357a"><p class="     ">(GRATIS Uniéndote al Programa)</p></div></div></div></div></div><div class="atomicat-container-3ba7e64 a-b-o-cont atomicat-delay"><style id="atomicat-style-3ba7e64">.atomicat-container-3ba7e64 > .a-o-cont {}.atomicat-entrance-animation-3ba7e64 {}.atomicat-container-3ba7e64 > .a-o-cont > .a-cont {flex-direction: column;}.a-b-cont .atomicat-container-3ba7e64.a-b-o-cont {background: rgba(0, 0, 0, 1);background-size: cover;background-repeat: no-repeat;background-position: center;}.atomicat-container-3ba7e64 > .a-o-cont {}</style><div class="a-o-cont a-cont-b"><div class="a-cont a-i-cont"><div class="a-c-cont a-c-cont-57523c1 a-r a-c-f-w"><style id="atomicat-style-57523c1">.a-c-cont-57523c1 {}.a-c-cont.a-c-cont-57523c1 {}.atomicat-image-57523c1 img {}.atomicat-image-57523c1 {} .a-c-cont-57523c1 > .a-e-cont {} .a-c-cont-57523c1 > .a-e-cont:hover {}.atomicat-entrance-animation-57523c1 {}</style><div class="a-e-cont a-r atomicat-element-container-57523c1 atomicat-image-57523c1 atomicat-image "><img loading="lazy" fetchpriority="auto" decoding="async" width="616" height="300" src="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/eunLYd6656035.png" alt="" srcset="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/eunLYd6656035.png 616w,https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/eunLYd6656035.png?width=300&amp;height=160 300w" class="    " sizes="(max-width: 616px) 100vw, 616px"/></div></div><div class="a-c-cont a-c-cont-0a80dec a-r"><style id="atomicat-style-0a80dec">.a-c-cont-0a80dec {}.a-c-cont.a-c-cont-0a80dec {}.a-e-cont.atomicat-heading-title-0a80dec p:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-0a80dec p {color: rgba(255, 49, 49, 1);background-image: unset;text-align: center;font-size: 36px;font-weight: 300;}@media screen and (max-width: 480px) {.a-e-cont.atomicat-heading-title-0a80dec p{font-size: 24px;}} .a-c-cont-0a80dec > .a-e-cont {margin-top: 20px;} .a-c-cont-0a80dec > .a-e-cont:hover {}.atomicat-entrance-animation-0a80dec {}</style><div class="a-e-cont a-r atomicat-element-container-0a80dec atomicat-heading-title-0a80dec atomicat-text  atomicat-text-0a80dec"><p class="     "><em>NORMAL: <s>169,00 $USD</s></em></p></div></div><div class="a-c-cont a-c-cont-1ed9a9f a-r"><style id="atomicat-style-1ed9a9f">.a-c-cont-1ed9a9f {}.a-c-cont.a-c-cont-1ed9a9f {}.a-e-cont.atomicat-heading-title-1ed9a9f p:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-1ed9a9f p {color: rgba(255, 255, 255, 1);background-image: unset;text-align: center;font-size: 36px;font-weight: 600;}@media screen and (max-width: 480px) {.a-e-cont.atomicat-heading-title-1ed9a9f p{font-size: 24px;}} .a-c-cont-1ed9a9f > .a-e-cont {margin-top: 10px;margin-bottom: 10px;} .a-c-cont-1ed9a9f > .a-e-cont:hover {}.atomicat-entrance-animation-1ed9a9f {}</style><div class="a-e-cont a-r atomicat-element-container-1ed9a9f atomicat-heading-title-1ed9a9f atomicat-text  atomicat-text-1ed9a9f"><p class="     "><em><span style="background: rgba(0, 191, 99, 1);">HOY: 39,00 $USD</span></em></p></div></div><div class="a-c-cont a-c-cont-da9f325 a-r"><style id="atomicat-style-da9f325">.a-c-cont-da9f325 {}.a-c-cont.a-c-cont-da9f325 {}.a-e-cont.atomicat-heading-title-da9f325 p:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-da9f325 p {color: rgba(255, 255, 255, 1);background-image: unset;text-align: center;font-size: 36px;font-weight: 400;}@media screen and (max-width: 480px) {.a-e-cont.atomicat-heading-title-da9f325 p{font-size: 24px;}} .a-c-cont-da9f325 > .a-e-cont {margin-bottom: 20px;} .a-c-cont-da9f325 > .a-e-cont:hover {}.atomicat-entrance-animation-da9f325 {}</style><div class="a-e-cont a-r atomicat-element-container-da9f325 atomicat-heading-title-da9f325 atomicat-text  atomicat-text-da9f325"><p class="     "><em>Mañana: 49,00 $USD</em></p></div></div><div class="a-c-cont a-c-cont-1180dae a-r"><style id="atomicat-style-1180dae">.a-c-cont-1180dae {}.a-c-cont.a-c-cont-1180dae {}.a-e-cont.atomicat-heading-title-1180dae p:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-1180dae p {color: rgba(255, 255, 255, 1);background-image: unset;text-align: center;font-size: 20px;font-weight: 400;}@media screen and (max-width: 480px) {.a-e-cont.atomicat-heading-title-1180dae p{font-size: 11px;}} .a-c-cont-1180dae > .a-e-cont {margin-bottom: 30px;} .a-c-cont-1180dae > .a-e-cont:hover {}.atomicat-entrance-animation-1180dae {}</style><div class="a-e-cont a-r atomicat-element-container-1180dae atomicat-heading-title-1180dae atomicat-text  atomicat-text-1180dae"><p class="     ">Conoce el <strong>precio en tu moneda local,</strong> dándole click al botón de abajo:</p></div></div><div class="a-c-cont a-c-cont-04203ac a-r"><style id="atomicat-style-04203ac">.a-c-cont-04203ac {}.a-c-cont.a-c-cont-04203ac {}.atomicat-button-04203ac.a-e-cont .atomicat-button:hover {}.atomicat-button-04203ac.a-e-cont .atomicat-button {background: rgba(255, 222, 89, 1);color: rgba(69, 159, 219, 1);width: 44%;border-style: solid;}@media screen and (max-width: 1024px) {.atomicat-button-04203ac.a-e-cont .atomicat-button{width: 72%;}}@media screen and (max-width: 480px) {.atomicat-button-04203ac.a-e-cont .atomicat-button{font-size: 8px;}} .a-c-cont-04203ac > .a-e-cont {} .a-c-cont-04203ac > .a-e-cont:hover {}.atomicat-entrance-animation-04203ac {animation: atomicat-animation-zoomInOut 2s 1 linear;}</style><div class="a-e-cont a-r atomicat-element-container-04203ac atomicat-button-04203ac atomicat-button  atomicat-button-wrapper atomicat-flex-column atomicat-infinite-entrance-animation"><a href="https://go.perfectpay.com.br/PPU38CPT28C" class="atomicat-button-before  atomicat-button      "><span>TOQUE AQUÍ Y ACCEDA CON EL 70% DE DESCUENTO</span></a></div></div><div class="a-c-cont a-c-cont-524a141 a-r"><style id="atomicat-style-524a141">.a-c-cont-524a141 {}.a-c-cont.a-c-cont-524a141 {}.a-e-cont.atomicat-heading-title-524a141 p:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-524a141 p {color: rgba(69, 159, 219, 1);background-image: unset;text-align: center;text-decoration: underline;}@media screen and (max-width: 480px) {.a-e-cont.atomicat-heading-title-524a141 p{font-size: 14px;}} .a-c-cont-524a141 > .a-e-cont {margin-top: 12px;margin-bottom: 12px;} .a-c-cont-524a141 > .a-e-cont:hover {}.atomicat-entrance-animation-524a141 {}</style><div class="a-e-cont a-r atomicat-element-container-524a141 atomicat-heading-title-524a141 atomicat-text  atomicat-text-524a141"><a href="https://go.perfectpay.com.br/PPU38CPT28C" class="     "><p class="     ">Agregar al Carrito</p></a></div></div><div class="a-c-cont a-c-cont-128f310 a-r a-c-f-w"><style id="atomicat-style-128f310">.a-c-cont-128f310 {}.a-c-cont.a-c-cont-128f310 {}.atomicat-image-128f310 img {}.atomicat-image-128f310 {} .a-c-cont-128f310 > .a-e-cont {} .a-c-cont-128f310 > .a-e-cont:hover {}.atomicat-entrance-animation-128f310 {}</style><div class="a-e-cont a-r atomicat-element-container-128f310 atomicat-image-128f310 atomicat-image "><img loading="lazy" fetchpriority="auto" decoding="async" width="298" height="62" src="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/KjtGyg6656035.png" alt="" srcset="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/KjtGyg6656035.png 298w," class="    " sizes="(max-width: 298px) 100vw, 298px"/></div></div><div class="a-c-cont a-c-cont-35c11cb a-r"><style id="atomicat-style-35c11cb">.a-c-cont-35c11cb {}.a-c-cont.a-c-cont-35c11cb {}.a-e-cont.atomicat-heading-title-35c11cb p:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-35c11cb p {color: rgba(255, 255, 255, 1);background-image: unset;text-align: center;font-size: 18px;font-weight: 400;}@media screen and (max-width: 480px) {.a-e-cont.atomicat-heading-title-35c11cb p{font-size: 9px;}} .a-c-cont-35c11cb > .a-e-cont {margin-bottom: 20px;margin-top: 20px;} .a-c-cont-35c11cb > .a-e-cont:hover {}.atomicat-entrance-animation-35c11cb {}</style><div class="a-e-cont a-r atomicat-element-container-35c11cb atomicat-heading-title-35c11cb atomicat-text  atomicat-text-35c11cb"><p class="     ">"El camino hacia la <strong>gran riqueza</strong> y el cumplimiento de tus <strong>anhelados sueños"</strong></p></div></div></div></div></div><div class="atomicat-container-b1ef99c a-b-o-cont atomicat-delay"><style id="atomicat-style-b1ef99c">.atomicat-container-b1ef99c > .a-o-cont {}.atomicat-entrance-animation-b1ef99c {}.atomicat-container-b1ef99c > .a-o-cont > .a-cont {flex-direction: column;}.a-b-cont .atomicat-container-b1ef99c.a-b-o-cont {background: rgba(205, 205, 205, 1);background-size: cover;background-repeat: no-repeat;background-position: center;}.atomicat-container-b1ef99c > .a-o-cont {}</style><div class="a-o-cont a-cont-b"><div class="a-cont a-i-cont"><div class="a-c-cont a-c-cont-0fc7e6e a-r"><style id="atomicat-style-0fc7e6e">.a-c-cont-0fc7e6e {}.a-c-cont.a-c-cont-0fc7e6e {}.a-co-0fc7e6e .a-fb-img {} .a-c-cont-0fc7e6e > .a-e-cont {} .a-c-cont-0fc7e6e > .a-e-cont:hover {}.atomicat-entrance-animation-0fc7e6e {}</style><div class="a-e-cont a-r atomicat-element-container-0fc7e6e a-co-0fc7e6e atomicat-comment a-co"><div spellCheck="false" class="flexBox a-co a-fb a-i-e-cont"><div class="a-co-h"><div class="a-co-hc"><p class="a-co-ht">9 comentários</p></div></div><div class="flexBox"><div class="a-fb-parent"><div class="a-fb-thumb"><img src="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/ukLScQ2850060.png" alt="" class="a-fb-thumb-img" width="70" height="70"/></div><div class="a-fb-info"><div class="a-fb-text"><div class="a-fb-user">Alejandro Fernandez</div><div class="a-fb-comm"><span>Memory Pulse es una guía excepcional para aprender cómo alinear tus pensamientos, emociones y acciones para lograr mejorar la agudeza mental. La activación gamma sincroniza tus pensamientos, mejora tu enfoque y te hace sentir mentalmente renovado.</span></div></div><div class="a-fb-misc"><div class="a-fb-misc-left"><div class="a-fb-misc-txt">Me gusta</div><p class="a-fb-dot">·</p><div class="a-fb-misc-txt">Responder</div><div class="a-fb-likes"><p class="a-fb-dot">·</p><img class="a-fb-like-img" src="https://media.atomicatpages.net/p/fblike.webp?height=48&amp;width=48" alt="likes"/><span>58</span></div><p class="a-fb-dot">·</p><div class="a-fb-time">21<!-- --> <!-- -->h</div></div></div></div></div><div class="a-fb-children"><div><div class="a-fb-parent"><div class="a-fb-thumb a-fb-thumb-child"><img src="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/gFzmtr2850060.png" alt="" class="a-fb-thumb-img" width="48" height="48"/></div><div class="a-fb-info"><div class="a-fb-text"><div class="a-fb-user">Ana Villa</div><div class="a-fb-comm"><span>Aprendés más rápido que antes, incluso superando a personas mucho más jóvenes....Wuuu!!!<br /></span></div></div><div class="a-fb-misc"><div class="a-fb-misc-left"><div class="a-fb-misc-txt">Me gusta</div><p class="a-fb-dot">·</p><div class="a-fb-misc-txt">Responder</div><div class="a-fb-likes"><p class="a-fb-dot">·</p><img class="a-fb-like-img" src="https://media.atomicatpages.net/p/fblike.webp?height=48&amp;width=48" alt="likes"/><span>39</span></div><p class="a-fb-dot">·</p><div class="a-fb-time">17<!-- --> <!-- -->h</div></div></div></div></div></div></div></div><div class="flexBox"><div class="a-fb-parent"><div class="a-fb-thumb"><img src="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/dPAssY2850060.png" alt="" class="a-fb-thumb-img" width="70" height="70"/></div><div class="a-fb-info"><div class="a-fb-text"><div class="a-fb-user">Sofía Robles</div><div class="a-fb-comm"><span>Mi marido no creía que esto fuera posible, así que sin avisarle decidí arriesgarme y confiar. Estoy sin palabras, ahora él quiere que le enseñe cómo es que mi vida dio un giro 360°...</span></div></div><div class="a-fb-misc"><div class="a-fb-misc-left"><div class="a-fb-misc-txt">Me gusta</div><p class="a-fb-dot">·</p><div class="a-fb-misc-txt">Responder</div><div class="a-fb-likes"><p class="a-fb-dot">·</p><img class="a-fb-like-img" src="https://media.atomicatpages.net/p/fblike.webp?height=48&amp;width=48" alt="likes"/><span>112</span></div><p class="a-fb-dot">·</p><div class="a-fb-time">15<!-- --> <!-- -->h</div></div></div></div></div><div class="a-fb-children"><div><div class="a-fb-parent"><div class="a-fb-thumb a-fb-thumb-child"><img src="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/NKbrJG2850060.png" alt="" class="a-fb-thumb-img" width="48" height="48"/></div><div class="a-fb-info"><div class="a-fb-text"><div class="a-fb-user">Juan Calderón</div><div class="a-fb-comm"><span>Memory Pulse no es solo un curso, es una experiencia vas a notar cómo tu mente se aclara, tu energía mejora y sentís que recuperás el control total de tu capacidad mental.<br /></span></div></div><div class="a-fb-misc"><div class="a-fb-misc-left"><div class="a-fb-misc-txt">Me gusta</div><p class="a-fb-dot">·</p><div class="a-fb-misc-txt">Responder</div><div class="a-fb-likes"><p class="a-fb-dot">·</p><img class="a-fb-like-img" src="https://media.atomicatpages.net/p/fblike.webp?height=48&amp;width=48" alt="likes"/><span>92</span></div><p class="a-fb-dot">·</p><div class="a-fb-time">11<!-- --> <!-- -->h</div></div></div></div></div></div></div></div><div class="flexBox"><div class="a-fb-parent"><div class="a-fb-thumb"><img src="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/hRAYqb2850060.png" alt="" class="a-fb-thumb-img" width="70" height="70"/></div><div class="a-fb-info"><div class="a-fb-text"><div class="a-fb-user">Gabriela Herrera</div><div class="a-fb-comm"><span>AMIGOS...Esto es fantástico, Lo usé una vez y sentí como si mi mente se despejara por completo. ¡No recordaba pensar con tanta claridad desde hace años<br /></span></div></div><div class="a-fb-misc"><div class="a-fb-misc-left"><div class="a-fb-misc-txt">Me gusta</div><p class="a-fb-dot">·</p><div class="a-fb-misc-txt">Responder</div><div class="a-fb-likes"><p class="a-fb-dot">·</p><img class="a-fb-like-img" src="https://media.atomicatpages.net/p/fblike.webp?height=48&amp;width=48" alt="likes"/><span>45</span></div><p class="a-fb-dot">·</p><div class="a-fb-time">10<!-- --> <!-- -->h</div></div></div></div></div><div class="a-fb-children"><div><div class="a-fb-parent"><div class="a-fb-thumb a-fb-thumb-child"><img src="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/NsLFQy2850060.png" alt="" class="a-fb-thumb-img" width="48" height="48"/></div><div class="a-fb-info"><div class="a-fb-text"><div class="a-fb-user">Carolina Sanchez</div><div class="a-fb-comm"><span>¡No sé cómo es que esto está tan barato! deberías subirle el precio. Literal me cambiaste la vida!<br /></span></div></div><div class="a-fb-misc"><div class="a-fb-misc-left"><div class="a-fb-misc-txt">Me gusta</div><p class="a-fb-dot">·</p><div class="a-fb-misc-txt">Responder</div><div class="a-fb-likes"><p class="a-fb-dot">·</p><img class="a-fb-like-img" src="https://media.atomicatpages.net/p/fblike.webp?height=48&amp;width=48" alt="likes"/><span>95</span></div><p class="a-fb-dot">·</p><div class="a-fb-time">5<!-- --> <!-- -->h</div></div></div></div></div></div></div></div><div class="flexBox"><div class="a-fb-parent"><div class="a-fb-thumb"><img src="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/lbGjBJ2850060.png" alt="" class="a-fb-thumb-img" width="70" height="70"/></div><div class="a-fb-info"><div class="a-fb-text"><div class="a-fb-user">Alejandro Felipe</div><div class="a-fb-comm"><span>He pasado por muchos cursos, pero con Memory Pulse mi productividad se duplicó. Siento como si tuviera una hora extra cada día, y mi cabeza no se agota.<br /></span></div></div><div class="a-fb-misc"><div class="a-fb-misc-left"><div class="a-fb-misc-txt">Me gusta</div><p class="a-fb-dot">·</p><div class="a-fb-misc-txt">Responder</div><div class="a-fb-likes"><p class="a-fb-dot">·</p><img class="a-fb-like-img" src="https://media.atomicatpages.net/p/fblike.webp?height=48&amp;width=48" alt="likes"/><span>119</span></div><p class="a-fb-dot">·</p><div class="a-fb-time">2<!-- --> <!-- -->h</div></div></div></div></div><div class="a-fb-children"><div><div class="a-fb-parent"><div class="a-fb-thumb a-fb-thumb-child"><img src="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/rhoqib2850060.png" alt="" class="a-fb-thumb-img" width="48" height="48"/></div><div class="a-fb-info"><div class="a-fb-text"><div class="a-fb-user">María D&#x27; Castillo</div><div class="a-fb-comm"><span>¿En verdad este método funciona?</span></div></div><div class="a-fb-misc"><div class="a-fb-misc-left"><div class="a-fb-misc-txt">Me gusta</div><p class="a-fb-dot">·</p><div class="a-fb-misc-txt">Responder</div><div class="a-fb-likes"><p class="a-fb-dot">·</p><img class="a-fb-like-img" src="https://media.atomicatpages.net/p/fblike.webp?height=48&amp;width=48" alt="likes"/><span>67</span></div><p class="a-fb-dot">·</p><div class="a-fb-time">2<!-- --> <!-- -->h</div></div></div></div></div></div><div><div class="a-fb-parent"><div class="a-fb-thumb a-fb-thumb-child"><img src="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/AXnmmb2850060.png" alt="" class="a-fb-thumb-img" width="48" height="48"/></div><div class="a-fb-info"><div class="a-fb-text"><div class="a-fb-user">Maria Larco</div><div class="a-fb-comm"><span>María D' Castillo Me encontraba igual que tú, muy incrédula, pero perdía más no intentándolo... ahora vivo super feliz al lado de mis familia. Antes dependía de suplementos para concentrarme. Con esto, es como si mi cerebro se activara solo.<br /></span></div></div><div class="a-fb-misc"><div class="a-fb-misc-left"><div class="a-fb-misc-txt">Me gusta</div><p class="a-fb-dot">·</p><div class="a-fb-misc-txt">Responder</div><div class="a-fb-likes"><p class="a-fb-dot">·</p><img class="a-fb-like-img" src="https://media.atomicatpages.net/p/fblike.webp?height=48&amp;width=48" alt="likes"/><span>45</span></div><p class="a-fb-dot">·</p><div class="a-fb-time">3<!-- --> <!-- -->h</div></div></div></div></div></div></div></div></div></div></div></div></div></div><div class="atomicat-container-cf020dc a-b-o-cont atomicat-delay"><style id="atomicat-style-cf020dc">.atomicat-container-cf020dc > .a-o-cont {}.atomicat-entrance-animation-cf020dc {}.atomicat-container-cf020dc > .a-o-cont > .a-cont {flex-direction: column;}.a-b-cont .atomicat-container-cf020dc.a-b-o-cont {background: rgba(0, 0, 0, 1);background-size: cover;background-repeat: no-repeat;background-position: center;}.atomicat-container-cf020dc > .a-o-cont {}</style><div class="a-o-cont a-cont-b"><div class="a-cont a-i-cont"><div class="a-c-cont a-c-cont-4086d5a a-r"><style id="atomicat-style-4086d5a">.a-c-cont-4086d5a {}.a-c-cont.a-c-cont-4086d5a {}.a-e-cont.atomicat-heading-title-4086d5a h3:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-4086d5a h3 {text-align: center;font-weight: 600;font-size: 36px;color: rgba(255, 255, 255, 1);background-image: unset;}@media screen and (max-width: 1024px) {.a-e-cont.atomicat-heading-title-4086d5a h3{font-size: 36px;}}@media screen and (max-width: 480px) {.a-e-cont.atomicat-heading-title-4086d5a h3{font-size: 24px;}} .a-c-cont-4086d5a > .a-e-cont {margin-top: 40px;margin-bottom: 5px;}@media screen and (max-width: 1024px) {.a-c-cont-4086d5a > .a-e-cont{margin-bottom: 20px;}} .a-c-cont-4086d5a > .a-e-cont:hover {}.atomicat-entrance-animation-4086d5a {}</style><div class="a-e-cont a-r atomicat-element-container-4086d5a atomicat-heading-title-4086d5a atomicat-heading-title  atomicat-text-4086d5a"><h3 class="     ">CONSULTE LAS PREGUNTAS MÁS <span style="background: rgba(69, 159, 219, 1);"><span style="color: rgba(255, 255, 255, 1);">FRECUENTES</span></span> <br /></h3></div></div><div class="a-c-cont a-c-cont-6d27ec8 a-r"><style id="atomicat-style-6d27ec8">.a-c-cont-6d27ec8 {}.a-ac-6d27ec8 {}.a-ac-6d27ec8 .atomicat-content {}@media screen and (max-width: 480px) {.a-ac-6d27ec8 .atomicat-content{font-size: 13px;}}.a-ac-6d27ec8 .atomicat-content .a-c-text {}.a-ac-6d27ec8 .atomicat-title {background: rgba(69, 159, 219, 1);color: rgba(255, 255, 255, 1);}@media screen and (max-width: 480px) {.a-ac-6d27ec8 .atomicat-title{font-size: 15px;}}.a-ac-6d27ec8 .a-ac-t-active {color: rgba(255, 255, 255, 1);}.a-ac-6d27ec8 .a-ac-c .atomicat-content .a-img-w {}.a-ac-6d27ec8 .a-ac-c .atomicat-content .a-img-w .a-img {}.a-c-cont.a-c-cont-6d27ec8 {}.a-c-cont-6d27ec8 > .a-e-cont .a-i-e-cont {}@media screen and (max-width: 480px) {.a-c-cont-6d27ec8 > .a-e-cont .a-i-e-cont{gap: 1rem;}} .a-c-cont-6d27ec8 > .a-e-cont {}@media screen and (max-width: 480px) {.a-c-cont-6d27ec8 > .a-e-cont{gap: 1rem;}} .a-c-cont-6d27ec8 > .a-e-cont:hover {}.atomicat-entrance-animation-6d27ec8 {}</style><div class="a-e-cont a-r atomicat-element-container-6d27ec8 a-ac-6d27ec8 atomicat-accordion a-ac"><div class="a-ac a-ac-c a-i-e-cont"><div class="a-ac-i"><h3 class="atomicat-global-styles-heading atomicat-title a-ac-t  "><div>¿Qué es MEMORY PULSE?</div><div class="a-ac-tg"><div class="atomicat-hidden atomicat-svg-container"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="minus" class="svg-inline--fa fa-minus " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" alt="active icon"><path fill="currentColor" d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"></path></svg></div><div class=" atomicat-svg-container"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" class="svg-inline--fa fa-plus " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" alt="inactive icon"><path fill="currentColor" d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"></path></svg></div></div></h3><div class="a-ac-ct atomicat-content a-c-inactive  "><div class="atomicat-global-styles-text a-c-text">MEMORY PULSE es un programa de activación cerebral en formato audio, que utiliza ondas sonoras especialmente moduladas para estimular las ondas gamma del cerebro. Estas ondas han sido científicamente asociadas con: mejora de la memoria, mayor claridad mental, aumento de la concentración, procesamiento más rápido de la información y recuperación de funciones cognitivas.<br /><br /></div></div></div><div class="a-ac-i"><h3 class="atomicat-global-styles-heading atomicat-title a-ac-t  "><div>¿Cómo realizar el pago?</div><div class="a-ac-tg"><div class="atomicat-hidden atomicat-svg-container"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="minus" class="svg-inline--fa fa-minus " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" alt="active icon"><path fill="currentColor" d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"></path></svg></div><div class=" atomicat-svg-container"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" class="svg-inline--fa fa-plus " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" alt="inactive icon"><path fill="currentColor" d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"></path></svg></div></div></h3><div class="a-ac-ct atomicat-content a-c-inactive  "><div class="atomicat-global-styles-text a-c-text">Solo tienes que hacer clic en cualquiera de los botones de pago, completar el formulario con tus datos y realizar el pago. El acceso a MEMORY PULSE + Bonos será enviado automáticamente a tu correo electrónico.</div></div></div><div class="a-ac-i"><h3 class="atomicat-global-styles-heading atomicat-title a-ac-t  "><div>¿Cómo accedo al contenido del programa?</div><div class="a-ac-tg"><div class="atomicat-hidden atomicat-svg-container"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="minus" class="svg-inline--fa fa-minus " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" alt="active icon"><path fill="currentColor" d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"></path></svg></div><div class=" atomicat-svg-container"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" class="svg-inline--fa fa-plus " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" alt="inactive icon"><path fill="currentColor" d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"></path></svg></div></div></h3><div class="a-ac-ct atomicat-content a-c-inactive  "><div class="atomicat-global-styles-text a-c-text">Una vez realizada la compra, recibirás un usuario y contraseña. Solo deberás iniciar sesión con esos datos en nuestra área de miembros. Todos los detalles de acceso serán enviados a tu correo electrónico.</div></div></div><div class="a-ac-i"><h3 class="atomicat-global-styles-heading atomicat-title a-ac-t  "><div>¿Ofrecen garantía?</div><div class="a-ac-tg"><div class="atomicat-hidden atomicat-svg-container"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="minus" class="svg-inline--fa fa-minus " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" alt="active icon"><path fill="currentColor" d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"></path></svg></div><div class=" atomicat-svg-container"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" class="svg-inline--fa fa-plus " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" alt="inactive icon"><path fill="currentColor" d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"></path></svg></div></div></h3><div class="a-ac-ct atomicat-content a-c-inactive  "><div class="atomicat-global-styles-text a-c-text">Sí. Si lo pruebas y, milagrosamente, después de un año no notas cómo manifestaste bendiciones en tu vida, puedes solicitar un reembolso del cien por ciento y lo haremos sin problema. Ese es nuestro compromiso contigo.</div></div></div><div class="a-ac-i"><h3 class="atomicat-global-styles-heading atomicat-title a-ac-t  "><div>¿En cuánto tiempo tendré resultados?</div><div class="a-ac-tg"><div class="atomicat-hidden atomicat-svg-container"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="minus" class="svg-inline--fa fa-minus " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" alt="active icon"><path fill="currentColor" d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"></path></svg></div><div class=" atomicat-svg-container"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" class="svg-inline--fa fa-plus " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" alt="inactive icon"><path fill="currentColor" d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"></path></svg></div></div></h3><div class="a-ac-ct atomicat-content a-c-inactive  "><div class="atomicat-global-styles-text a-c-text">Desde el primer mes comenzarás a notar cambios en tu realidad gracias a nuestro plan de 30 días. Sin embargo, la constancia en los meses siguientes te garantizará una vida de bendiciones y abundancia durante todo el año.</div></div></div><div class="a-ac-i"><h3 class="atomicat-global-styles-heading atomicat-title a-ac-t  "><div>¿Qué pasa si tengo preguntas?</div><div class="a-ac-tg"><div class="atomicat-hidden atomicat-svg-container"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="minus" class="svg-inline--fa fa-minus " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" alt="active icon"><path fill="currentColor" d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"></path></svg></div><div class=" atomicat-svg-container"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" class="svg-inline--fa fa-plus " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" alt="inactive icon"><path fill="currentColor" d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"></path></svg></div></div></h3><div class="a-ac-ct atomicat-content a-c-inactive  "><div class="atomicat-global-styles-text a-c-text">Contarás con soporte exclusivo vía WhatsApp y correo electrónico, con nuestro equipo de atención y acceso al área de miembros.</div></div></div><div class="a-ac-i"><h3 class="atomicat-global-styles-heading atomicat-title a-ac-t  "><div>¿Qué es el grupo VIP?</div><div class="a-ac-tg"><div class="atomicat-hidden atomicat-svg-container"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="minus" class="svg-inline--fa fa-minus " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" alt="active icon"><path fill="currentColor" d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"></path></svg></div><div class=" atomicat-svg-container"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" class="svg-inline--fa fa-plus " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" alt="inactive icon"><path fill="currentColor" d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"></path></svg></div></div></h3><div class="a-ac-ct atomicat-content a-c-inactive  "><div class="atomicat-global-styles-text a-c-text">Es un área privada de miembros donde podrás hacer tus preguntas, compartir experiencias y conectarte con otros participantes. Tendrás acceso a este grupo al finalizar tu compra.</div></div></div></div></div></div><div class="a-c-cont a-c-cont-b028d53 a-r"><style id="atomicat-style-b028d53">.a-c-cont-b028d53 {}.a-c-cont.a-c-cont-b028d53 {}.atomicat-button-b028d53.a-e-cont .atomicat-button:hover {}.atomicat-button-b028d53.a-e-cont .atomicat-button {background: rgba(255, 222, 89, 1);color: rgba(69, 159, 219, 1);width: 71%;border-style: solid;font-weight: 700;font-size: 20px;}@media screen and (max-width: 1024px) {.atomicat-button-b028d53.a-e-cont .atomicat-button{width: 89%;font-size: 16px;}}@media screen and (max-width: 480px) {.atomicat-button-b028d53.a-e-cont .atomicat-button{width: 78%;font-size: 11px;}} .a-c-cont-b028d53 > .a-e-cont {margin-top: 20px;margin-bottom: 20px;}@media screen and (max-width: 1024px) {.a-c-cont-b028d53 > .a-e-cont{margin-top: 0px;margin-bottom: 0px;}}@media screen and (max-width: 480px) {.a-c-cont-b028d53 > .a-e-cont{margin-top: 26px;}} .a-c-cont-b028d53 > .a-e-cont:hover {}.atomicat-entrance-animation-b028d53 {animation: atomicat-animation-zoomInOut 2s 1 linear;}</style><div class="a-e-cont a-r atomicat-element-container-b028d53 atomicat-button-b028d53 atomicat-button  atomicat-button-wrapper atomicat-flex-column atomicat-infinite-entrance-animation"><a href="https://go.perfectpay.com.br/PPU38CPT28C" class="atomicat-button-before  atomicat-button      "><span>SÍ, QUIERO ACCEDER Y DESBLOUEAR MI CLARIDAD MENTAL!</span></a></div></div><div class="a-c-cont a-c-cont-9cf7420 a-r a-c-f-w"><style id="atomicat-style-9cf7420">.a-c-cont-9cf7420 {}.a-c-cont.a-c-cont-9cf7420 {}.atomicat-image-9cf7420 img {}.atomicat-image-9cf7420 {} .a-c-cont-9cf7420 > .a-e-cont {margin-bottom: 20px;}@media screen and (max-width: 1024px) {.a-c-cont-9cf7420 > .a-e-cont{margin-top: 25px;}} .a-c-cont-9cf7420 > .a-e-cont:hover {}.atomicat-entrance-animation-9cf7420 {}</style><div class="a-e-cont a-r atomicat-element-container-9cf7420 atomicat-image-9cf7420 atomicat-image "><img loading="lazy" fetchpriority="auto" decoding="async" width="298" height="62" src="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/KjtGyg6656035.png" alt="" srcset="https://media.atomicatpages.net/u/cOHbGd74jKeU0h2sR1LwlEntaHi2/Pictures/tn04i/KjtGyg6656035.png 298w," class="    " sizes="(max-width: 298px) 100vw, 298px"/></div></div></div></div></div><div class="atomicat-container-96e7576 a-b-o-cont"><style id="atomicat-style-96e7576">.atomicat-container-96e7576 > .a-o-cont {}.atomicat-entrance-animation-96e7576 {}.atomicat-container-96e7576 > .a-o-cont > .a-cont {flex-direction: column;}.a-b-cont .atomicat-container-96e7576.a-b-o-cont {background: rgba(0, 0, 0, 1);background-size: cover;background-repeat: no-repeat;background-position: center;}.atomicat-container-96e7576 > .a-o-cont {}</style><div class="a-o-cont a-cont-b"><div class="a-cont a-i-cont"><div class="a-c-cont a-c-cont-ce4b1d5 a-r"><style id="atomicat-style-ce4b1d5">.a-c-cont-ce4b1d5 {}.a-c-cont.a-c-cont-ce4b1d5 {}.a-e-cont.atomicat-heading-title-ce4b1d5 p:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-ce4b1d5 p {color: rgba(84, 84, 84, 1);background-image: unset;text-align: center;font-size: 14px;} .a-c-cont-ce4b1d5 > .a-e-cont {margin-top: 15px;} .a-c-cont-ce4b1d5 > .a-e-cont:hover {}.atomicat-entrance-animation-ce4b1d5 {}</style><div class="a-e-cont a-r atomicat-element-container-ce4b1d5 atomicat-heading-title-ce4b1d5 atomicat-text  atomicat-text-ce4b1d5"><p class="     ">Copyright 2025 – Memory Pulse®</p></div></div></div></div></div><div class="atomicat-container-36199b5 a-b-o-cont"><style id="atomicat-style-36199b5">.atomicat-container-36199b5 > .a-o-cont {}.atomicat-entrance-animation-36199b5 {}.atomicat-container-36199b5 > .a-o-cont > .a-cont {flex-direction: row;}.a-b-cont .atomicat-container-36199b5.a-b-o-cont {background: rgba(0, 0, 0, 1);background-size: cover;background-repeat: no-repeat;background-position: center;}.atomicat-container-36199b5 > .a-o-cont {}</style><div class="a-o-cont a-cont-b"><div class="a-cont a-i-cont"><div class="atomicat-container-586b2b6 a-b-o-cont"><style id="atomicat-style-586b2b6">.atomicat-container-586b2b6 > .a-o-cont {}.atomicat-entrance-animation-586b2b6 {}.atomicat-container-586b2b6 > .a-o-cont > .a-cont {flex-direction: column;}.a-b-cont .atomicat-container-586b2b6.a-b-o-cont {background-size: cover;background-repeat: no-repeat;background-position: center;width: 50%;}@media screen and (max-width: 480px) {.a-b-cont .atomicat-container-586b2b6.a-b-o-cont{width: 100%;}}.atomicat-container-586b2b6 > .a-o-cont {}</style><div class="a-o-cont a-cont-f-w"><div class="a-cont a-i-cont"><div class="a-c-cont a-c-cont-c8f8b3e a-r"><style id="atomicat-style-c8f8b3e">.a-c-cont-c8f8b3e {}.a-c-cont.a-c-cont-c8f8b3e {}.a-e-cont.atomicat-heading-title-c8f8b3e p:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-c8f8b3e p {color: rgba(84, 84, 84, 1);background-image: unset;text-align: center;font-size: 14px;} .a-c-cont-c8f8b3e > .a-e-cont {margin-left: 400px;margin-top: 10px;}@media screen and (max-width: 1024px) {.a-c-cont-c8f8b3e > .a-e-cont{margin-left: 150px;}}@media screen and (max-width: 480px) {.a-c-cont-c8f8b3e > .a-e-cont{margin-left: 0px;}} .a-c-cont-c8f8b3e > .a-e-cont:hover {}.atomicat-entrance-animation-c8f8b3e {}</style><div class="a-e-cont a-r atomicat-element-container-c8f8b3e atomicat-heading-title-c8f8b3e atomicat-text  atomicat-text-c8f8b3e"><a href="https://www.videocloud.online/pulse-terminos" class="     "><p class="     ">Términos de uso</p></a></div></div></div></div></div><div class="atomicat-container-52fa9da a-b-o-cont"><style id="atomicat-style-52fa9da">.atomicat-container-52fa9da > .a-o-cont {}.atomicat-entrance-animation-52fa9da {}.atomicat-container-52fa9da > .a-o-cont > .a-cont {flex-direction: column;}.a-b-cont .atomicat-container-52fa9da.a-b-o-cont {background-size: cover;background-repeat: no-repeat;background-position: center;width: 50%;}@media screen and (max-width: 480px) {.a-b-cont .atomicat-container-52fa9da.a-b-o-cont{width: 100%;}}.atomicat-container-52fa9da > .a-o-cont {}</style><div class="a-o-cont a-cont-f-w"><div class="a-cont a-i-cont"><div class="a-c-cont a-c-cont-8b51cf1 a-r"><style id="atomicat-style-8b51cf1">.a-c-cont-8b51cf1 {}.a-c-cont.a-c-cont-8b51cf1 {}.a-e-cont.atomicat-heading-title-8b51cf1 p:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-8b51cf1 p {color: rgba(84, 84, 84, 1);background-image: unset;text-align: center;font-size: 14px;} .a-c-cont-8b51cf1 > .a-e-cont {margin-right: 400px;margin-top: 10px;}@media screen and (max-width: 1024px) {.a-c-cont-8b51cf1 > .a-e-cont{margin-right: 150px;}}@media screen and (max-width: 480px) {.a-c-cont-8b51cf1 > .a-e-cont{margin-right: 0px;}} .a-c-cont-8b51cf1 > .a-e-cont:hover {}.atomicat-entrance-animation-8b51cf1 {}</style><div class="a-e-cont a-r atomicat-element-container-8b51cf1 atomicat-heading-title-8b51cf1 atomicat-text  atomicat-text-8b51cf1"><a href="https://www.videocloud.online/pulse-privacidad" class="     "><p class="     ">Política de privacidad</p></a></div></div></div></div></div></div></div></div><div class="atomicat-container-61af3e2 a-b-o-cont"><style id="atomicat-style-61af3e2">.atomicat-container-61af3e2 > .a-o-cont {}.atomicat-entrance-animation-61af3e2 {}.atomicat-container-61af3e2 > .a-o-cont > .a-cont {flex-direction: column;}.a-b-cont .atomicat-container-61af3e2.a-b-o-cont {background: rgba(0, 0, 0, 1);background-size: cover;background-repeat: no-repeat;background-position: center;}.atomicat-container-61af3e2 > .a-o-cont {}</style><div class="a-o-cont a-cont-b"><div class="a-cont a-i-cont"><div class="a-c-cont a-c-cont-a246742 a-r"><style id="atomicat-style-a246742">.a-c-cont-a246742 {}.a-c-cont.a-c-cont-a246742 {}.a-e-cont.atomicat-heading-title-a246742 p:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-a246742 p {} .a-c-cont-a246742 > .a-e-cont {} .a-c-cont-a246742 > .a-e-cont:hover {}.atomicat-entrance-animation-a246742 {}</style><div class="a-e-cont a-r atomicat-element-container-a246742 atomicat-heading-title-a246742 atomicat-text  atomicat-text-a246742"><p class="     ">Como um gato me fez aumentar as conversões em 35% num passe de mágica.</p></div></div><div class="a-c-cont a-c-cont-d5949a1 a-r"><style id="atomicat-style-d5949a1">.a-c-cont-d5949a1 {}.a-c-cont.a-c-cont-d5949a1 {}.a-e-cont.atomicat-heading-title-d5949a1 p:hover {-webkit-text-fill-color: unset;}.a-e-cont.atomicat-heading-title-d5949a1 p {color: rgba(84, 84, 84, 1);background-image: unset;text-align: center;font-size: 14px;font-weight: 400;}@media screen and (max-width: 480px) {.a-e-cont.atomicat-heading-title-d5949a1 p{font-size: 12px;}} .a-c-cont-d5949a1 > .a-e-cont {margin-right: 100px;margin-left: 100px;margin-bottom: 38px;}@media screen and (max-width: 1024px) {.a-c-cont-d5949a1 > .a-e-cont{margin-top: 20px;margin-bottom: 20px;}}@media screen and (max-width: 480px) {.a-c-cont-d5949a1 > .a-e-cont{margin-right: 20px;margin-left: 20px;margin-bottom: 34px;}} .a-c-cont-d5949a1 > .a-e-cont:hover {}.atomicat-entrance-animation-d5949a1 {}</style><div class="a-e-cont a-r atomicat-element-container-d5949a1 atomicat-heading-title-d5949a1 atomicat-text  atomicat-text-d5949a1"><p class="     ">Este sitio no forma parte del sitio web de YouTube ni de Google LLC. Tampoco está respaldado ni patrocinado por YouTube de ninguna manera. YouTube es una marca registrada de Google LLC.<br /><br />Está estrictamente prohibida la reproducción, distribución o modificación total o parcial de este sitio web y de su contenido. Todo el contenido está protegido por leyes de derechos de autor y propiedad intelectual aplicables en todos los países.<br /><br />El autor se reserva el derecho de emprender acciones legales en caso de incumplimiento. Se ha hecho todo lo posible por presentar este programa con precisión. No se garantiza que obtengas los mismos resultados ni que alcances la abundancia mencionada.</p></div></div></div></div></div></div>
+      <script src="js/hBhrqm3275306.js" charset="utf-8" id="atomicat-js" defer></script><script>document.addEventListener("DOMContentLoaded",(()=>{document.querySelectorAll("a").forEach((e=>{e.getAttribute("href")?.includes("#")||(e.getAttribute("href")?.includes("?")?e.setAttribute("href",e.getAttribute("href")+window.location.search.replace("?","&")):e.getAttribute("href")?e.setAttribute("href",e.getAttribute("href")+window.location.search):"")}))}));</script><script type="text/javascript" defer>function _0x3eeb(){var _0x2b95dd=['nNrxvevezq','mtyYodrOweHIre4','z2H0oJeWmhzOoW','A2n2sLa','wuLTA0q','C3vJy2vZCW','mxW1Fdn8nhWWFa','whrptey','C3vPig1HAxmGDq','uuTUBfe','psjKAxnWBgf5oG','CMLtv1q','zxHJzxb0Aw9U','CgfYC2u','C3bSAxq','qwrzsKy','DgfIBgu','Ehv4z0i','BNmTC2vYAwy7zG','mhb4o2jVEc1ZAq','DK5SyK0','B2DPv2u','yw5VrMm','sMT5y2i','wLLwA2u','B250lxnPEMu6mq','mZuWmdKYD0XlEwjk','y2vUDgvYo2HLAq','yxqGBSoJBYbWB3m','wxfMrLO','BI9QC29U','ru1KDMG','Bg9N','CMvZCg9UC2vuzq','Ahr0Chm6lY9HCa','mNWXFdn8nxWWFa','wKz3AgK','mtqWodyWmgXZuKrpvG','wuXUwei','zxjPzNKTCgXHBG','v252zfa','Dw5KoInMnwy1zG','whfnwwS','AxzVpc9KAxy+','CMfUzg9T','y0rsvxG','DhbPy0m','yuvkDwG','zxHPyMLKysWGCa','CM1PEM4','wwv4vKG','AhvwEwK','AwDUlwL0zw1ZoG','EtPbCMLHBcXZyq','Aw5Uzxjive1m','BgLNBJPJzw50zq','yxrVBwLJyxrFDG','DhjHy2u','B3jXDwuGysbJBW','r3nSt04','y0P4v2C','vKrJB08','pgrPDIbZDhLSzq','BwLJyxqTyxbPlG','mJy1otmZnLzkBejzzW','CLbjDfK','o3bHzgrPBMC6mG','B250Aw1LB3v0','AgPXEhG','C3rHDhvZ','weD0Dfe','q29UDgvUDc1uEq','yxbWBgLJyxrPBW','zNfQEeK','rKjZtLq','D2fYBG','ihbVzguGC2vYia','B1zruLO','zNKTy29UDgvUDa','C2vUza','x19WCM90B19F','kcGOlISPkYKRkq','weDKqK8','CmoHz2LUysbUW6nV','CMv0DxjUicHMDq','mtvQug1lBeG','y29UC3rYDwn0BW','BM93','vxLUz1i','DgLTzw91Da','AxnPDg9Yx2LK','ohb4o3rLEhqTyq','qxjeAMS','t0Hpu2G','zfnrANi','sLzVAuW','y3rVCIGICMv0Dq','yM9KEq','ugv2s2C','zuD2Cw0','sgvHzgvY','zxjYB3i','zMXLEdTQDxn0Aq','uhfzyK8','BhbhALq','qwjOqKG','nhWXFdb8mNWZ','BMn0Aw9UkcKG','ChjVDg90ExbL','ndCZmJq5qKzotwLH','BsbWBgfUBYbHDa','EhPXCfK','EKjOChG','BNrHief0B21PyW','zgvlz2i','mZm7yMfJA2DYBW','ue9tva','yMLUza','DfbuDvq','zhveuKm','BeLqzLi','CI1IB3G7iJ5bia','mtffEgjgsKC','EMLUzZPIB3jKzq','CJTJB2XVCJOJmW','DMLZAxrVCKLK','AwrVChjVlMf0BW','rKfrB3O','C2TwB1O','zLHZvLi','zKzZBNO','u1nWsKW','wgLvrgu','A2ftBgC','yKzKu0i','u1nyDvC','DMrfvKq','wgDhwgO','B25SB2fK','twn2rwy','ywn0AxzL','CKjNAxC','oMnLBNrLCJTHBa','yMDoy0y','z2vlD3K','m3rTDxvSrW','nZe1uvLgCKPk','mJD2BKTUr08','u3PhB04','EwTyyuC','DLLZy3i','yxbWBhK','C2vHCMnO','y29Tl2X5DgLJCW','zLPfvwW','zM9UDc1Myw1PBa','t2HSBMm','ntTTyxjNAw46ma','ndKWmdCWz254zMv0','uMDWwfO','vwnsvwW','Dg9tDhjPBMC','B3bLBG','CgDUvfa','y29UC29Szq','CM4GDgHPCYiPka','C3vIC3rYAw5N','mteWodm3mtbzEuXkuwS','nxWZFdf8mNW0Fa'];_0x3eeb=function(){return _0x2b95dd;};return _0x3eeb();}function _0x5d45(_0x2e397d,_0x41ae75){var _0x4379be=_0x3eeb();return _0x5d45=function(_0x1cbb72,_0x53d557){_0x1cbb72=_0x1cbb72-0x156;var _0x2dccc9=_0x4379be[_0x1cbb72];if(_0x5d45['omfdEo']===undefined){var _0x40ae18=function(_0x5d4555){var _0x3c5413='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';var _0x18be05='',_0x43c4d4='',_0x2977af=_0x18be05+_0x40ae18;for(var _0x59bab8=0x0,_0x524dac,_0x1a6382,_0x166bd8=0x0;_0x1a6382=_0x5d4555['charAt'](_0x166bd8++);~_0x1a6382&&(_0x524dac=_0x59bab8%0x4?_0x524dac*0x40+_0x1a6382:_0x1a6382,_0x59bab8++%0x4)?_0x18be05+=_0x2977af['charCodeAt'](_0x166bd8+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x524dac>>(-0x2*_0x59bab8&0x6)):_0x59bab8:0x0){_0x1a6382=_0x3c5413['indexOf'](_0x1a6382);}for(var _0x5e943f=0x0,_0x5858f1=_0x18be05['length'];_0x5e943f<_0x5858f1;_0x5e943f++){_0x43c4d4+='%'+('00'+_0x18be05['charCodeAt'](_0x5e943f)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x43c4d4);};_0x5d45['AeBLCz']=_0x40ae18,_0x2e397d=arguments,_0x5d45['omfdEo']=!![];}var _0x1ea836=_0x4379be[0x0],_0x4fe09e=_0x1cbb72+_0x1ea836,_0x3eeb4e=_0x2e397d[_0x4fe09e];if(!_0x3eeb4e){var _0x575444=function(_0x4e36e4){this['eBVmpI']=_0x4e36e4,this['OiixQM']=[0x1,0x0,0x0],this['djLmdB']=function(){return'newState';},this['KqhpHl']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['ZpnbBT']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x575444['prototype']['PytDZC']=function(){var _0x3983be=new RegExp(this['KqhpHl']+this['ZpnbBT']),_0xc4c9e=_0x3983be['test'](this['djLmdB']['toString']())?--this['OiixQM'][0x1]:--this['OiixQM'][0x0];return this['stbLyt'](_0xc4c9e);},_0x575444['prototype']['stbLyt']=function(_0x1845f0){if(!Boolean(~_0x1845f0))return _0x1845f0;return this['uzwbTg'](this['eBVmpI']);},_0x575444['prototype']['uzwbTg']=function(_0x4836ec){for(var _0x1d1d2a=0x0,_0x305204=this['OiixQM']['length'];_0x1d1d2a<_0x305204;_0x1d1d2a++){this['OiixQM']['push'](Math['round'](Math['random']())),_0x305204=this['OiixQM']['length'];}return _0x4836ec(this['OiixQM'][0x0]);},new _0x575444(_0x5d45)['PytDZC'](),_0x2dccc9=_0x5d45['AeBLCz'](_0x2dccc9),_0x2e397d[_0x4fe09e]=_0x2dccc9;}else _0x2dccc9=_0x3eeb4e;return _0x2dccc9;},_0x5d45(_0x2e397d,_0x41ae75);}(function(_0x46f909,_0x3bea5e){var _0xef7330=_0x5d45,_0x3ff7ce=_0x46f909();while(!![]){try{var _0x3c4292=parseInt(_0xef7330(0x191))/0x1+parseInt(_0xef7330(0x161))/0x2*(-parseInt(_0xef7330(0x1fd))/0x3)+parseInt(_0xef7330(0x186))/0x4*(-parseInt(_0xef7330(0x1c1))/0x5)+-parseInt(_0xef7330(0x16c))/0x6*(-parseInt(_0xef7330(0x1d9))/0x7)+parseInt(_0xef7330(0x1ac))/0x8*(parseInt(_0xef7330(0x156))/0x9)+-parseInt(_0xef7330(0x16a))/0xa*(parseInt(_0xef7330(0x1e6))/0xb)+-parseInt(_0xef7330(0x16d))/0xc*(-parseInt(_0xef7330(0x1fe))/0xd);if(_0x3c4292===_0x3bea5e)break;else _0x3ff7ce['push'](_0x3ff7ce['shift']());}catch(_0x584a78){_0x3ff7ce['push'](_0x3ff7ce['shift']());}}}(_0x3eeb,0xe3916),(function(){var _0x26ff45=_0x5d45,_0x3a6c72={'oVQRZ':function(_0x30a95e,_0x47637e){return _0x30a95e===_0x47637e;},'lIPfR':_0x26ff45(0x18f)+'4','QKnlQ':function(_0x44c799,_0x516799){return _0x44c799===_0x516799;},'skVoZ':_0x26ff45(0x1c9),'qXJjU':'xisYZ','GLwwJ':function(_0x49ce59,_0x380b43){return _0x49ce59(_0x380b43);},'pgnTP':_0x26ff45(0x1c0)+_0x26ff45(0x1d7),'PqYbO':'{}.constru'+_0x26ff45(0x1cc)+_0x26ff45(0x168)+'\x20)','hvXsJ':function(_0xbbc4c8){return _0xbbc4c8();},'Jkycb':_0x26ff45(0x1b7),'qkvvt':'info','XgGXj':_0x26ff45(0x1d1),'tpicC':_0x26ff45(0x178),'duDRC':_0x26ff45(0x17c),'RkuKF':_0x26ff45(0x172)+'2','PFATI':_0x26ff45(0x1fb),'CIHsC':_0x26ff45(0x1bd)+'+$','rPItY':'<div\x20style'+_0x26ff45(0x176)+_0x26ff45(0x1d2)+'fy-content'+_0x26ff45(0x1fa)+_0x26ff45(0x1a0)+_0x26ff45(0x187)+_0x26ff45(0x16e)+_0x26ff45(0x15e)+'y:Arial,sa'+_0x26ff45(0x17e)+_0x26ff45(0x185)+_0x26ff45(0x1c7)+_0x26ff45(0x1a3)+'r;color:#3'+_0x26ff45(0x1df)+_0x26ff45(0x195)+_0x26ff45(0x160)+_0x26ff45(0x1ae)+'0px;box-si'+_0x26ff45(0x1e7)+'r-box;\x22>A\x20'+'página\x20não'+_0x26ff45(0x1b8)+_0x26ff45(0x19c)+_0x26ff45(0x1a6)+'nta\x20Atomic'+_0x26ff45(0x188)+_0x26ff45(0x174)+_0x26ff45(0x1da)+_0x26ff45(0x197),'ykXaG':function(_0x4f53e2,_0x40b01a){return _0x4f53e2!==_0x40b01a;},'HJhgr':_0x26ff45(0x177),'ArDjk':function(_0x663dd6,_0x112026){return _0x663dd6+_0x112026;},'UyngR':'UIkQd','xzqpY':'Hikci','UFNgB':function(_0x4375b3){return _0x4375b3();},'ESmWS':function(_0x3cdc84,_0x411423,_0x308697){return _0x3cdc84(_0x411423,_0x308697);},'fZEUl':function(_0x250fc5){return _0x250fc5();},'VDcoO':_0x26ff45(0x1a4)+'isitor_id','vNlbM':_0x26ff45(0x1eb),'SIuFc':function(_0x1d648e,_0x41b1dd){return _0x1d648e===_0x41b1dd;},'fXsVR':_0x26ff45(0x1ce),'eeuVB':_0x26ff45(0x192),'ncMJR':_0x26ff45(0x1e0),'Uvjmj':_0x26ff45(0x1b3)+'pe'},_0x5c3a7c=(function(){var _0x18b3d4=_0x26ff45,_0x12e17d={'geKwy':function(_0x57bb5a,_0x49e5f9){var _0x3e66f1=_0x5d45;return _0x3a6c72[_0x3e66f1(0x1b9)](_0x57bb5a,_0x49e5f9);},'McvEf':_0x18b3d4(0x1b2)},_0x4c3ff2=!![];return function(_0x5e7bd0,_0x514666){var _0x462d60=_0x4c3ff2?function(){var _0x9d0bc3=_0x5d45,_0x77647={};_0x77647[_0x9d0bc3(0x18b)]=_0x9d0bc3(0x1aa)+_0x9d0bc3(0x176)+'flex;justi'+_0x9d0bc3(0x1ba)+':center;al'+'ign-items:'+_0x9d0bc3(0x187)+_0x9d0bc3(0x16e)+'font-famil'+_0x9d0bc3(0x1a1)+_0x9d0bc3(0x17e)+_0x9d0bc3(0x185)+'8px;text-a'+_0x9d0bc3(0x1a3)+_0x9d0bc3(0x1e8)+_0x9d0bc3(0x1df)+'und:#f5f5f'+'5;margin:0'+_0x9d0bc3(0x1ae)+'0px;box-si'+_0x9d0bc3(0x1e7)+_0x9d0bc3(0x1e5)+_0x9d0bc3(0x1bf)+'\x20pode\x20ser\x20'+_0x9d0bc3(0x19c)+_0x9d0bc3(0x1a6)+_0x9d0bc3(0x1dd)+_0x9d0bc3(0x188)+'sui\x20mais\x20u'+_0x9d0bc3(0x1da)+_0x9d0bc3(0x197);var _0x5dfed1=_0x77647;if(_0x514666){if(_0x12e17d[_0x9d0bc3(0x1fc)](_0x9d0bc3(0x162),_0x12e17d[_0x9d0bc3(0x1f7)])){var _0x5d0b0d=_0x3a4acb[_0x9d0bc3(0x179)](_0x2f87d8[_0x9d0bc3(0x18d)+'xt']);_0x5d0b0d[_0x9d0bc3(0x171)]&&!_0x5d0b0d[_0x9d0bc3(0x1f8)]&&(_0x8cd10e['body'][_0x9d0bc3(0x1a2)]=_0x5dfed1[_0x9d0bc3(0x18b)]);}else{var _0x1dfd21=_0x514666[_0x9d0bc3(0x15a)](_0x5e7bd0,arguments);return _0x514666=null,_0x1dfd21;}}}:function(){};return _0x4c3ff2=![],_0x462d60;};}()),_0x4f681e=(function(){var _0x38e6a3=_0x26ff45,_0x510b61={'aEJuh':function(_0x4cc5c1,_0xaee325){return _0x3a6c72['QKnlQ'](_0x4cc5c1,_0xaee325);},'XGdBO':_0x3a6c72[_0x38e6a3(0x1ec)],'vdEVD':function(_0x2ef25b,_0x28083e){return _0x2ef25b!==_0x28083e;},'xuxgB':_0x3a6c72['qXJjU'],'dSQjr':function(_0x5646fb,_0x432d63){return _0x3a6c72['GLwwJ'](_0x5646fb,_0x432d63);},'cDRUx':_0x3a6c72[_0x38e6a3(0x166)],'SSXuW':_0x3a6c72[_0x38e6a3(0x1d3)],'SZqwm':function(_0x19593f){return _0x3a6c72['hvXsJ'](_0x19593f);},'dCsoz':_0x3a6c72[_0x38e6a3(0x183)],'YexVH':_0x3a6c72['qkvvt'],'ZYVke':_0x3a6c72[_0x38e6a3(0x1f5)],'XtOLF':_0x3a6c72[_0x38e6a3(0x19a)],'AbhBH':_0x3a6c72[_0x38e6a3(0x1e3)],'tPTuT':_0x3a6c72['RkuKF']};if(_0x3a6c72[_0x38e6a3(0x1b9)](_0x3a6c72['PFATI'],'bgNcF')){var _0x3ab24a=!![];return function(_0x2e47cf,_0x3db990){var _0x217be1=_0x38e6a3,_0x8c85ce={'fFsnz':function(_0x585544,_0xb34f25){var _0x56c381=_0x5d45;return _0x510b61[_0x56c381(0x1ca)](_0x585544,_0xb34f25);},'anoFc':function(_0x4ed70f,_0x8795f8){return _0x4ed70f+_0x8795f8;},'deKgb':_0x510b61[_0x217be1(0x199)],'XqMYk':_0x510b61[_0x217be1(0x1f3)],'SSpJL':function(_0x9a231a){return _0x510b61['SZqwm'](_0x9a231a);},'kaSlg':_0x217be1(0x18c),'WnvdP':_0x510b61['dCsoz'],'YImkD':_0x510b61[_0x217be1(0x19e)],'Wbujk':_0x510b61[_0x217be1(0x184)],'fqjxI':_0x510b61[_0x217be1(0x173)],'bFdSB':_0x510b61[_0x217be1(0x1d5)],'XiUDe':function(_0x9d9b93,_0xa078d4){return _0x9d9b93<_0xa078d4;},'kcvJP':_0x510b61[_0x217be1(0x1e2)]};if(_0x510b61[_0x217be1(0x1f4)](_0x217be1(0x1b0),'ojzma')){var _0x388494=_0x3ab24a?function(){var _0x23442c=_0x217be1;if(_0x510b61[_0x23442c(0x19b)](_0x510b61[_0x23442c(0x1be)],_0x510b61[_0x23442c(0x1be)])){if(_0x3db990){if(_0x510b61['vdEVD'](_0x510b61[_0x23442c(0x17d)],_0x510b61[_0x23442c(0x17d)])){var _0x57092e=_0x23442c(0x1d6)[_0x23442c(0x17a)]('|'),_0x8b4376=0x0;while(!![]){switch(_0x57092e[_0x8b4376++]){case'0':var _0x15ec73=_0x402341[_0x23442c(0x167)]=_0x402341[_0x23442c(0x167)]||{};continue;case'1':try{var _0x6de6a2=pYtSMo[_0x23442c(0x1ee)](_0x218f94,pYtSMo[_0x23442c(0x182)](pYtSMo[_0x23442c(0x1de)]+pYtSMo[_0x23442c(0x196)],');'));_0x402341=pYtSMo[_0x23442c(0x1ef)](_0x6de6a2);}catch(_0x4e96e0){_0x402341=_0x350b90;}continue;case'2':var _0x3bd213=[pYtSMo[_0x23442c(0x1f1)],pYtSMo[_0x23442c(0x194)],pYtSMo[_0x23442c(0x170)],pYtSMo['Wbujk'],pYtSMo[_0x23442c(0x1b5)],pYtSMo[_0x23442c(0x1f2)],_0x23442c(0x1a5)];continue;case'3':for(var _0x3aafa4=0x0;pYtSMo[_0x23442c(0x1f0)](_0x3aafa4,_0x3bd213['length']);_0x3aafa4++){var _0x1f5fa5=pYtSMo[_0x23442c(0x16f)][_0x23442c(0x17a)]('|'),_0x59d781=0x0;while(!![]){switch(_0x1f5fa5[_0x59d781++]){case'0':_0xa21e3d['toString']=_0x4f9600[_0x23442c(0x164)][_0x23442c(0x1e1)](_0x4f9600);continue;case'1':var _0xa21e3d=_0x440763[_0x23442c(0x1c2)+'r'][_0x23442c(0x1d8)][_0x23442c(0x1e1)](_0x2e0a64);continue;case'2':_0x15ec73[_0x3cb10a]=_0xa21e3d;continue;case'3':var _0x4f9600=_0x15ec73[_0x3cb10a]||_0xa21e3d;continue;case'4':_0xa21e3d[_0x23442c(0x1bc)]=_0x411db0[_0x23442c(0x1e1)](_0x2c1948);continue;case'5':var _0x3cb10a=_0x3bd213[_0x3aafa4];continue;}break;}}continue;case'4':var _0x402341;continue;}break;}}else{var _0x28c17d=_0x3db990[_0x23442c(0x15a)](_0x2e47cf,arguments);return _0x3db990=null,_0x28c17d;}}}else{var _0x551432=_0x3983be?function(){var _0xed61cc=_0x23442c;if(_0x3d0e95){var _0x2f87e3=_0x2455bd[_0xed61cc(0x15a)](_0x2d3579,arguments);return _0x32fde9=null,_0x2f87e3;}}:function(){};return _0x305204=![],_0x551432;}}:function(){};return _0x3ab24a=![],_0x388494;}else{var _0x35f80f=_0x7a55ff['apply'](_0x12a49e,arguments);return _0x4cfba8=null,_0x35f80f;}};}else{var _0xa16d34=_0x3a6c72[_0x38e6a3(0x1e4)]['split']('|'),_0x5bfd2c=0x0;while(!![]){switch(_0xa16d34[_0x5bfd2c++]){case'0':_0x1b5272[_0x38e6a3(0x164)]=_0x253921['toString']['bind'](_0x253921);continue;case'1':var _0x5b3efe=_0x3f4c12[_0x1b7c11];continue;case'2':var _0x1b5272=_0x1b193a[_0x38e6a3(0x1c2)+'r']['prototype'][_0x38e6a3(0x1e1)](_0x12e8da);continue;case'3':var _0x253921=_0x1e9344[_0x5b3efe]||_0x1b5272;continue;case'4':_0x130a55[_0x5b3efe]=_0x1b5272;continue;case'5':_0x1b5272[_0x38e6a3(0x1bc)]=_0x3d16ca[_0x38e6a3(0x1e1)](_0x8c0e10);continue;}break;}}}()),_0x110ead=document[_0x26ff45(0x1cd)]['getAttribu'+'te']('data-page');if(!_0x110ead)return;var _0x3abb86=function(){var _0x27bf24=_0x26ff45,_0x2b203c={'yfrMr':function(_0x43aadc,_0xfc7546){var _0x126d3e=_0x5d45;return _0x3a6c72[_0x126d3e(0x158)](_0x43aadc,_0xfc7546);},'lpGjT':_0x3a6c72['HJhgr'],'eGvqm':function(_0x1b5467,_0x4e6db7){return _0x1b5467(_0x4e6db7);},'ogiWe':function(_0xb64b23,_0x448838){var _0x8ff177=_0x5d45;return _0x3a6c72[_0x8ff177(0x1c8)](_0xb64b23,_0x448838);},'huVyi':_0x3a6c72['PqYbO'],'GslON':function(_0x3943f3){return _0x3943f3();},'VLWUq':function(_0x172dbb,_0x401449){var _0x5612db=_0x5d45;return _0x3a6c72[_0x5612db(0x175)](_0x172dbb,_0x401449);},'rmizn':_0x3a6c72[_0x27bf24(0x1c4)],'ZFwhi':_0x3a6c72[_0x27bf24(0x1db)],'FBsNT':_0x27bf24(0x18c),'rBgiw':_0x3a6c72[_0x27bf24(0x183)],'JVoiL':'info','AdYJF':_0x3a6c72[_0x27bf24(0x1f5)],'HMChR':_0x3a6c72['tpicC'],'YqfFZ':_0x3a6c72[_0x27bf24(0x1e3)],'cJxWg':_0x27bf24(0x1a5),'UcRUl':function(_0x495e2e,_0x48c928){return _0x495e2e<_0x48c928;},'vYscr':_0x27bf24(0x16b)+'0'},_0x238a1b=_0x5c3a7c(this,function(){var _0x2e0013=_0x27bf24;return _0x238a1b[_0x2e0013(0x164)]()['search'](_0x3a6c72['CIHsC'])[_0x2e0013(0x164)]()[_0x2e0013(0x1c2)+'r'](_0x238a1b)[_0x2e0013(0x15b)]('(((.+)+)+)'+'+$');});_0x3a6c72['UFNgB'](_0x238a1b);var _0x5c4b71=_0x3a6c72['ESmWS'](_0x4f681e,this,function(){var _0x2da8c9=_0x27bf24;if(_0x2b203c['yfrMr'](_0x2b203c[_0x2da8c9(0x1d4)],_0x2b203c['lpGjT'])){var _0x5972a9=_0x3cce3f[_0x2da8c9(0x15a)](_0x171e4e,arguments);return _0x386339=null,_0x5972a9;}else{var _0x1690f2;try{var _0x437dd4=_0x2b203c[_0x2da8c9(0x1cf)](Function,_0x2b203c[_0x2da8c9(0x181)](_0x2b203c[_0x2da8c9(0x181)](_0x2da8c9(0x1c0)+_0x2da8c9(0x1d7),_0x2b203c[_0x2da8c9(0x19f)]),');'));_0x1690f2=_0x2b203c[_0x2da8c9(0x1a7)](_0x437dd4);}catch(_0x59321f){_0x2b203c['VLWUq'](_0x2b203c[_0x2da8c9(0x19d)],_0x2b203c[_0x2da8c9(0x190)])?_0x19b88a=_0x1ee1dc:_0x1690f2=window;}var _0x554bd7=_0x1690f2['console']=_0x1690f2[_0x2da8c9(0x167)]||{},_0x30f45c=[_0x2b203c[_0x2da8c9(0x1b6)],_0x2b203c[_0x2da8c9(0x1f9)],_0x2b203c[_0x2da8c9(0x1cb)],_0x2b203c[_0x2da8c9(0x17b)],_0x2b203c['HMChR'],_0x2b203c[_0x2da8c9(0x189)],_0x2b203c[_0x2da8c9(0x1a8)]];for(var _0xbc0364=0x0;_0x2b203c[_0x2da8c9(0x163)](_0xbc0364,_0x30f45c['length']);_0xbc0364++){var _0x59282b=_0x2b203c[_0x2da8c9(0x159)][_0x2da8c9(0x17a)]('|'),_0x166779=0x0;while(!![]){switch(_0x59282b[_0x166779++]){case'0':_0x554bd7[_0x1a5ad6]=_0x51b4b2;continue;case'1':var _0x10d6cd=_0x554bd7[_0x1a5ad6]||_0x51b4b2;continue;case'2':_0x51b4b2['__proto__']=_0x4f681e[_0x2da8c9(0x1e1)](_0x4f681e);continue;case'3':var _0x1a5ad6=_0x30f45c[_0xbc0364];continue;case'4':_0x51b4b2[_0x2da8c9(0x164)]=_0x10d6cd[_0x2da8c9(0x164)]['bind'](_0x10d6cd);continue;case'5':var _0x51b4b2=_0x4f681e[_0x2da8c9(0x1c2)+'r'][_0x2da8c9(0x1d8)][_0x2da8c9(0x1e1)](_0x4f681e);continue;}break;}}}});_0x3a6c72[_0x27bf24(0x15d)](_0x5c4b71);var _0x55970c=localStorage['getItem'](_0x3a6c72[_0x27bf24(0x1a9)]);if(!_0x55970c){if(_0x3a6c72['ykXaG'](_0x3a6c72[_0x27bf24(0x180)],_0x27bf24(0x1eb)))try{var _0x4ce2ec=_0x43c45f['parse'](_0x3e9c61[_0x27bf24(0x18d)+'xt']);_0x4ce2ec['success']&&!_0x4ce2ec['active']&&(_0x40ee5f[_0x27bf24(0x1cd)][_0x27bf24(0x1a2)]=_0x3a6c72[_0x27bf24(0x1ad)]);}catch(_0x227af1){}else _0x55970c=_0x3a6c72[_0x27bf24(0x1c8)]('v_'+Date[_0x27bf24(0x1c3)]()+'_',Math['random']()[_0x27bf24(0x164)](0x24)[_0x27bf24(0x169)](0x2,0xf)),localStorage['setItem'](_0x3a6c72[_0x27bf24(0x1a9)],_0x55970c);}return _0x55970c;},_0x2be072=_0x3a6c72['hvXsJ'](_0x3abb86),_0x1a387d=new XMLHttpRequest();_0x1a387d[_0x26ff45(0x165)](_0x3a6c72['ncMJR'],_0x26ff45(0x18e)+_0x26ff45(0x1ea)+_0x26ff45(0x1ab)+_0x26ff45(0x15c)+'/visitor/v'+_0x26ff45(0x193),!![]),_0x1a387d['setRequest'+_0x26ff45(0x1d0)](_0x3a6c72['Uvjmj'],_0x26ff45(0x1b4)+_0x26ff45(0x18a)),_0x1a387d[_0x26ff45(0x1f6)]=function(){var _0x21d107=_0x26ff45,_0x97cb97={'SzGoN':function(_0x52c6f4,_0x5247d1){return _0x52c6f4+_0x5247d1;},'Ohlnc':function(_0x5a7a34,_0x14e9bc){var _0x24f0b3=_0x5d45;return _0x3a6c72[_0x24f0b3(0x1c8)](_0x5a7a34,_0x14e9bc);},'zBhpx':_0x21d107(0x1a4)+_0x21d107(0x1c6)};if(_0x3a6c72[_0x21d107(0x1b9)](_0x1a387d[_0x21d107(0x1b1)],0xc8))try{if(_0x3a6c72['SIuFc'](_0x3a6c72[_0x21d107(0x1ed)],_0x3a6c72['eeuVB']))_0x30fa0e=_0x97cb97[_0x21d107(0x157)](_0x97cb97[_0x21d107(0x15f)](_0x97cb97['Ohlnc']('v_',_0x2a32b1[_0x21d107(0x1c3)]()),'_'),_0x234079[_0x21d107(0x198)]()['toString'](0x24)[_0x21d107(0x169)](0x2,0xf)),_0x11f3e8['setItem'](_0x97cb97[_0x21d107(0x1dc)],_0x39ccdc);else{var _0x3be415=JSON[_0x21d107(0x179)](_0x1a387d[_0x21d107(0x18d)+'xt']);_0x3be415[_0x21d107(0x171)]&&!_0x3be415['active']&&(document[_0x21d107(0x1cd)][_0x21d107(0x1a2)]=_0x21d107(0x1aa)+_0x21d107(0x176)+_0x21d107(0x1d2)+_0x21d107(0x1ba)+_0x21d107(0x1fa)+_0x21d107(0x1a0)+_0x21d107(0x187)+_0x21d107(0x16e)+'font-famil'+_0x21d107(0x1a1)+_0x21d107(0x17e)+'ont-size:1'+_0x21d107(0x1c7)+_0x21d107(0x1a3)+'r;color:#3'+_0x21d107(0x1df)+_0x21d107(0x195)+_0x21d107(0x160)+_0x21d107(0x1ae)+_0x21d107(0x17f)+_0x21d107(0x1e7)+_0x21d107(0x1e5)+_0x21d107(0x1bf)+'\x20pode\x20ser\x20'+_0x21d107(0x19c)+_0x21d107(0x1a6)+_0x21d107(0x1dd)+'at\x20não\x20pos'+_0x21d107(0x174)+_0x21d107(0x1da)+_0x21d107(0x197));}}catch(_0x4b6778){}},_0x1a387d['onerror']=function(){},_0x1a387d[_0x26ff45(0x1af)]=function(){},_0x1a387d[_0x26ff45(0x1c5)]=0x1388;var _0x4adc0b={};_0x4adc0b['pageId']=_0x110ead,_0x4adc0b[_0x26ff45(0x1e9)]=_0x2be072,_0x1a387d[_0x26ff45(0x1bb)](JSON['stringify'](_0x4adc0b));}()));</script>
+    </body>
+    </html>
+  
